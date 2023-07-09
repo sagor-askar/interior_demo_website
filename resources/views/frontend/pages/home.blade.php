@@ -5,12 +5,12 @@
         <div class="qrt-slider-pagination">
             <div class="swiper-pagination swiper-main-pagination"></div>
         </div>
-        <div class="qrt-slider-navigation qrt-absolute">
+        {{-- <div class="qrt-slider-navigation qrt-absolute">
             <div class="qrt-slider-nav-btn qrt-main-prev qrt-cursor-scale qrt-cursor-color"><i
                     class="fas fa-arrow-left"></i><span>prev</span></div>
             <div class="qrt-slider-nav-btn qrt-main-next qrt-cursor-scale qrt-cursor-color"><span>next</span><i
                     class="fas fa-arrow-right"></i></div>
-        </div>
+        </div> --}}
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="qrt-project-cover">
@@ -367,9 +367,11 @@
             <div class="qrt-divider qrt-space-fix"></div>
 
             @include('frontend.include.testimonials')
+            
 
             <div class="qrt-divider"></div>
-            <div class="row">
+            @include('frontend.include.footer2')
+            {{-- <div class="row">
                 <div class="col-lg-12">
 
                     <div class="qrt-call-to-action">
@@ -379,7 +381,7 @@
                     </div>
 
                 </div>
-            </div>
+            </div> --}}
 
         </div>
         <div id="fixed" class="qrt-right">
@@ -387,3 +389,4 @@
         </div>
     </div>
     @endsection
+  

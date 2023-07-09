@@ -1,7 +1,7 @@
 @extends('frontend.layouts.master')
 @section('content')
 <div class="qrt-content" id="qrt-scroll-content">
-    <div class="qrt-half-content-frame">
+    <div class="qrt-content-frame">
       <div class="qrt-left">
 
         <div class="row qrt-p-0-40">
@@ -9,7 +9,7 @@
 
             <div class="qrt-page-cover">
               <img src="img/banners/cover2.jpg" alt="our office">
-              <div class="qrt-about-info">
+              {{-- <div class="qrt-about-info">
                 <div class="qrt-cover-info">
                   <ul class="qrt-table">
                     <li>
@@ -20,7 +20,7 @@
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> --}}
             </div>
 
           </div>
@@ -29,7 +29,7 @@
         <div class="row">
           <div class="col-lg-12">
 
-            <h3 class="qrt-mb-40">Contact info</h3>
+            <h3 class="qrt-mb-40 qrt-text">Contact info</h3>
 
           </div>
           <div class="col-lg-4">
@@ -74,7 +74,7 @@
         <div class="row">
           <div class="col-lg-12">
 
-            <h3 class="qrt-mb-40">Get in touch</h3>
+            <h3 class="qrt-mb-40 qrt-text">Get in touch</h3>
 
           </div>
           <div class="col-lg-12">
@@ -103,7 +103,7 @@
                   <div class="qrt-mb-20">We promise not to disclose your personal information to third parties.</div>
                 </div>
                 <div class="col-md-6">
-                  <div class="qrt-submit-frame qrt-text-right qrt-sm-text-left qrt-mb-40">
+                  <div class="qrt-submit-frame qrt-text-right qrt-sm-text-left qrt-mb-40 qrt-text">
                     <button class="qrt-btn qrt-btn-md qrt-btn-color qrt-cursor-scale qrt-submit-button" type="submit"><span>Send message</span></button>
                   </div>
                 </div>
@@ -119,7 +119,7 @@
         <div class="row">
           <div class="col-lg-12">
 
-            <h3 class="qrt-mb-40">Welcome to visit</h3>
+            <h3 class="qrt-mb-40 qrt-text qrt-text">Welcome to visit</h3>
 
           </div>
           <div class="col-lg-12">
@@ -136,38 +136,8 @@
 
         <div class="qrt-divider"></div>
 
+        
         {{-- <div class="row">
-          <div class="col-lg-12">
-
-            <div class="swiper-container qrt-brands-slider" style="overflow: visible">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="img/brands/b1.svg" alt="brand">
-                </div>
-                <div class="swiper-slide">
-                  <img src="img/brands/b2.svg" alt="brand">
-                </div>
-                <div class="swiper-slide">
-                  <img src="img/brands/b3.svg" alt="brand">
-                </div>
-                <div class="swiper-slide">
-                  <img src="img/brands/b4.svg" alt="brand">
-                </div>
-                <div class="swiper-slide">
-                  <img src="img/brands/b5.svg" alt="brand">
-                </div>
-                <div class="swiper-slide">
-                  <img src="img/brands/b6.svg" alt="brand">
-                </div>
-                <div class="swiper-slide">
-                  <img src="img/brands/b7.svg" alt="brand">
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div> --}}
-        <div class="row">
           <div class="col-lg-12">
 
             <div class="qrt-call-to-action">
@@ -176,26 +146,13 @@
             </div>
 
           </div>
-        </div>
+        </div> --}}
+        @include('frontend.include.footer2')
 
       </div>
+
+    </div>
       <div id="fixed" class="qrt-right">
-        <div class="qrt-half-banner qrt-left-align qrt-animated-show">
-          <div class="qrt-image-frame">
-            <img src="img/banners/banner4.jpg" alt="banner">
-          </div>
-          <div class="qrt-overlay">
-            <div class="qrt-scroll-hint">
-              <span></span>
-            </div>
-            <div class="qrt-banner-title">
-              <h2 class="qrt-white qrt-mb-10">Get in touch</h2>
-              <div class="qrt-divider-2"></div>
-              <div class="qrt-text qrt-white qrt-mb-20">Dolor sit amet, consectetur adipisicing elit. <br>Vel excepturi, earum inventore.</div>
-              <a href="{{ route('frontend.portfolio') }}" class="qrt-btn qrt-btn-md qrt-btn-color qrt-anima-link"><span>Portfolio</span></a>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>

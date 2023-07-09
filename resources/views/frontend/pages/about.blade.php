@@ -365,16 +365,7 @@
 
           </div>
         </div> --}}
-        <div class="row">
-          <div class="col-lg-12">
-
-            <div class="qrt-call-to-action">
-              <h4>Do you have a project?</h4>
-              <a class="qrt-btn qrt-btn-sm qrt-btn-color qrt-cursor-scale qrt-anima-link" href="{{ route('frontend.contact') }}"><span>Let's discuss</span></a>
-            </div>
-
-          </div>
-        </div>
+        @include('frontend.include.footer2')
 
       </div>
       <div id="fixed" class="qrt-right">

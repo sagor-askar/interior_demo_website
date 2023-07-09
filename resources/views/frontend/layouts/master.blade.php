@@ -50,7 +50,7 @@
     <div id="qrt-dynamic-content" class="qrt-dynamic-content">
       @yield('content')
     </div>
-
+    
     <!-- jquery js -->
     <script src="{{ asset('/') }}js/plugins/jquery.min.js"></script>
     <!-- anime js -->
@@ -74,6 +74,7 @@
 
     <!-- main js -->
     <script src="{{ asset('/') }}js/main.js"></script>
+    
 
 </body>
 
