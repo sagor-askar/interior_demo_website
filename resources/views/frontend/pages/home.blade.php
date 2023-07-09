@@ -1,3 +1,4 @@
+
 @extends('frontend.layouts.master')
 @section('content')
 <div class="qrt-content" id="qrt-scroll-content">
@@ -188,21 +189,6 @@
               <div class="row">
                 <div class="col-lg-12">
   
-                  <h3 class="qrt-mb-20">About Viktoria</h3>
-  
-                </div>
-                <div class="col-lg-12 qrt-mb-25">
-  
-                  <p>Organised and reliable, Viktoria is driven to integrate aesthetics with highly functional and exciting interior spaces. Her experience covers a broad range of project types and she works tirelessly to ensure that projects run
-                    smoothly from concept to completion. Viktoria is currently undertaking her Masters in Urban Design.</p>
-  
-                  <p class="mb-20">A global traveler, Viktoria has enjoyed vacations far and wide. When it comes to design, Viktoria cites Interior designer India Mahdavi as one of her biggest inspirations. Her clever use of colour, texture, and
-                    artworks combine
-                    to provide an endless source of inspiration.</p>
-  
-                </div>
-                <div class="col-lg-12">
-  
                   <blockquote>
                     Change is an opportunity! We want to lead people towards durable solutions and designs that enhance feelings of closeness, wellbeing and hopefully, happiness.
                   </blockquote>
@@ -217,7 +203,7 @@
 
                     <div class="qrt-counter-frame">
                         <div class="qrt-counter-box">
-                            <span class="qrt-counter">10</span>
+                            <span class="qrt-counter counting" data-count="10">0</span>
                         </div>
                         <h5>Years Experience</h5>
                     </div>
@@ -227,7 +213,7 @@
 
                     <div class="qrt-counter-frame">
                         <div class="qrt-counter-box">
-                            <span class="qrt-counter">143</span>
+                            <span class="qrt-counter counting" data-count="143">0</span>
                         </div>
                         <h5>Completed Projects</h5>
                     </div>
@@ -237,7 +223,7 @@
 
                     <div class="qrt-counter-frame">
                         <div class="qrt-counter-box">
-                            <span class="qrt-counter">114</span>
+                            <span class="qrt-counter counting" data-count="114">0</span>
                         </div>
                         <h5>Happy Customers</h5>
                     </div>
@@ -246,8 +232,8 @@
                 <div class="col-lg-3 col-sm-6">
 
                     <div class="qrt-counter-frame">
-                        <div class="qrt-counter-box">
-                            <span class="qrt-counter">20</span>
+                        <div class="qrt-counter-box ">
+                            <span class="qrt-counter counting" data-count="20">0</span>
                         </div>
                         <h5>Honors and Awards</h5>
                     </div>
@@ -370,6 +356,7 @@
             
 
             <div class="qrt-divider"></div>
+            @include('frontend.include.banner')
             @include('frontend.include.footer2')
             {{-- <div class="row">
                 <div class="col-lg-12">

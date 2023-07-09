@@ -1,43 +1,28 @@
 @extends('frontend.layouts.master')
 @section('content')
 <div class="qrt-content" id="qrt-scroll-content">
-    <div class="qrt-content-frame">
-      <div class="qrt-left">
+  <div class="row">
+    <div class="col-lg-12">
 
-        <div class="row qrt-p-0-40">
-          <div class="col-lg-12">
-
-            <div class="qrt-page-cover">
-              <img src="img/banners/cover1.jpg" alt="our office">
-              <div class="qrt-hint-frame">
-                <div class="qrt-scroll-hint">
-                  <span></span>
-                </div>
-              </div>
-              <div class="qrt-about-info">
-                <div class="qrt-cover-info">
-                  <ul class="qrt-table">
-                    <li>
-                      <h5 class="qrt-white">Country:</h5><span>Bangladesh</span>
-                    </li>
-                    <li>
-                      <h5 class="qrt-white">City:</h5><span>Dhaka</span>
-                    </li>
-                    <li>
-                      <h5 class="qrt-white">Foundation:</h5><span>May, 2017</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
+      <div class="qrt-page-cover">
+        <img src="img/banners/cover1.jpg" alt="our office">
+        <div class="qrt-hint-frame">
+          <div class="qrt-scroll-hint">
+            <span></span>
           </div>
         </div>
+       
+      </div>
+
+    </div>
+  </div>
+    <div class="qrt-content-frame">
+      <div class="qrt-left">      
 
         <div class="row">
           <div class="col-lg-4">
 
-            <h3 class="qrt-mb-40">We are creative <br>building - design company</h3>
+            <h3 class="qrt-mb-40 qrt-text">What we do</h3>
 
           </div>
           <div class="col-lg-8 qrt-mb-25">
@@ -61,43 +46,126 @@
         <div class="qrt-divider"></div>
 
         <div class="row">
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-6">
 
-            <div class="qrt-counter-frame">
-              <div class="qrt-counter-box">
-                <span class="qrt-counter">10</span>
+            <h3 class="qrt-mb-40 qrt-text">Achievement</h3>
+
+            <div class="qrt-timeline qrt-mb-40">
+
+              <div class="qrt-timeline-item">
+                <div class="qrt-timeline-mark"></div>
+                <div class="qrt-a qrt-timeline-content">
+                  <div class="qrt-card-header">
+                    <div class="qrt-date qrt-mb-20">jan 2018 - may 2020</div>
+                    <h4 class="qrt-mb-5">University of toronto</h4>
+                    {{-- <div class="qrt-el-suptitle">Student</div> --}}
+                  </div>
+                  <div class=" qrt-mb-20">Dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</div>
+                  <a data-fancybox="diploma" href="img/files/diploma.jpg" class="qrt-link qrt-w-chevron">View</a>
+                </div>
               </div>
-              <h5>Years Experience</h5>
+
+              <div class="qrt-timeline-item">
+                <div class="qrt-timeline-mark"></div>
+                <div class="qrt-a qrt-timeline-content">
+                  <div class="qrt-card-header">
+                    <div class="qrt-date qrt-mb-20">jan 2018 - may 2020</div>
+                    <h4 class="qrt-mb-5">3D visualization courses</h4>
+                    {{-- <div class="qrt-el-suptitle">Student</div> --}}
+                  </div>
+                  <div class=" qrt-mb-20">Dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</div>
+                  <a data-fancybox="diploma" href="img/files/certificate.jpg" class="qrt-link qrt-w-chevron">View</a>
+                </div>
+              </div>
+
             </div>
 
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-6">
 
-            <div class="qrt-counter-frame">
-              <div class="qrt-counter-box">
-                <span class="qrt-counter">143</span>
+            <h3 class="qrt-mb-40"></h3>
+
+            <div class="qrt-timeline qrt-mb-40">
+
+              <div class="qrt-timeline-item">
+                <div class="qrt-timeline-mark"></div>
+                <div class="qrt-a qrt-timeline-content">
+                  <div class="qrt-card-header">
+                    <div class="qrt-date qrt-mb-20">jan 2018 - may 2020</div>
+                    <h4 class="qrt-mb-5">Envato market</h4>
+                    {{-- <div class="qrt-el-suptitle">Template author</div> --}}
+                  </div>
+                  <div class="qrt-mb-20">Dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</div>
+                  <a data-fancybox="recommendation" href="#rec-1" class="qrt-link qrt-w-chevron">View</a>
+
+                </div>
               </div>
-              <h5>Completed Projects</h5>
-            </div>
 
-          </div>
-          <div class="col-lg-3 col-sm-6">
+              <div class="qrt-rec-popup" style="display: none;" id="rec-1">
 
-            <div class="qrt-counter-frame">
-              <div class="qrt-counter-box">
-                <span class="qrt-counter">114</span>
+                <div class="qrt-testimonial">
+                  <div class="qrt-testimonial-header">
+                    <img src="img/testimonials/t1.jpg" alt="customer">
+                    <div class="qrt-testimonial-name">
+                      <h4 class="qrt-mb-5">Emma Newman</h4>
+                      <div class="qrt-el-suptitle">Chief Architect</div>
+                    </div>
+                  </div>
+                  <div class="qrt-testimonial-text">
+                    We engaged Paul Trueman of quarty Studio to manage the planning process and to design and manage a full renovation and remodelling of our 1930s house. We really enjoyed working with Paul. We would not hesitate to
+                    recommend Paul and Quarty.
+                  </div>
+                  <ul class="qrt-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                </div>
+
               </div>
-              <h5>Happy Customers</h5>
-            </div>
 
-          </div>
-          <div class="col-lg-3 col-sm-6">
+              <div class="qrt-timeline-item">
+                <div class="qrt-timeline-mark"></div>
+                <div class="qrt-a qrt-timeline-content">
+                  <div class="qrt-card-header">
+                    <div class="qrt-date qrt-mb-20">jan 2018 - may 2020</div>
+                    <h4 class="qrt-mb-5">Themeforest</h4>
+                    {{-- <div class="qrt-el-suptitle">Art Director</div> --}}
+                  </div>
+                  <div class="qrt-mb-20">Dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</div>
+                  <a data-fancybox="recommendation" href="#rec-2" class="qrt-link qrt-w-chevron">View</a>
 
-            <div class="qrt-counter-frame">
-              <div class="qrt-counter-box">
-                <span class="qrt-counter">20</span>
+                </div>
               </div>
-              <h5>Honors and Awards</h5>
+
+              <div class="qrt-rec-popup" style="display: none;" id="rec-2">
+
+                <div class="qrt-testimonial">
+                  <div class="qrt-testimonial-header">
+                    <img src="img/testimonials/t2.jpg" alt="customer">
+                    <div class="qrt-testimonial-name">
+                      <h4 class="qrt-mb-5">Paul Trueman</h4>
+                      <div class="qrt-el-suptitle">Chief Architect</div>
+                    </div>
+                  </div>
+                  <div class="qrt-testimonial-text">
+                    We worked with Quarty Studio for approximately 2 years on the complete overhaul of our house. This included the design of the project, and the execution of the work. Quarty provided excellent design ideas but
+                    were also
+                    indispensable in managing the practical side of the build.
+                  </div>
+                  <ul class="qrt-stars">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                </div>
+
+              </div>
+
             </div>
 
           </div>
@@ -184,7 +252,39 @@
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
                   <h4 class="qrt-white qrt-qrt-mb-5">Kazi Minhajul Islam Najib</h4>
-                  <span style="color: white">Marketing & Project Coordinator</span>
+                  <span style="color: white">Project Coordinator</span>
+                </div>
+                <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-3">
+
+            <div class="qrt-team-member">
+              <a href="#" class="qrt-cursor-scale qrt-team-item qrt-anima-link">
+                <img src="img/team/tm6.jpg" alt="team member">
+              </a>
+              <div class="qrt-team-member-description">
+                <div class="qrt-member-name">
+                  <h4 class="qrt-white qrt-qrt-mb-5">Rifat Imtiaz</h4>
+                  <span style="color: white">Senior Manager(HR & Admin)</span>
+                </div>
+                <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-3">
+
+            <div class="qrt-team-member">
+              <a href="#" class="qrt-cursor-scale qrt-team-item qrt-anima-link">
+                <img src="img/team/tm7.jpg" alt="team member">
+              </a>
+              <div class="qrt-team-member-description">
+                <div class="qrt-member-name">
+                  <h4 class="qrt-white qrt-qrt-mb-5">Faishal Ahammad</h4>
+                  <span style="color: white">Executive(Accounts & HR)</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>
@@ -194,147 +294,9 @@
         </div>
 
         <div class="qrt-divider qrt-space-fix"></div>
+       
+
         <div class="row">
-          <div class="col-lg-12">
-
-            <h3 class="qrt-mb-40">Testimonials</h3>
-
-          </div>
-          <div class="col-lg-12">
-
-            <div class="swiper-container qrt-testimonials-slider" style="overflow: visible">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="qrt-testimonial">
-                    <div class="qrt-testimonial-header">
-                      <img src="{{ asset('img/testimonials/demo.jpg') }}" alt="customer">
-                      <div class="qrt-testimonial-name">
-                        <h4 class="qrt-mb-5">Mr. Mohammed Shajahan Tapan, CIP</h4>
-                        <div class="qrt-el-suptitle">Asset Developments & Holding Limited</div>
-                      </div>
-                    </div>
-                    <div class="qrt-testimonial-text">
-                        Thank you for capturing our essence and translating it in such a beautiful and functional way. Great work done by Polock Interior Design Limited.
-                    </div>
-                    <ul class="qrt-stars">
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="qrt-testimonial">
-                    <div class="qrt-testimonial-header">
-                      <img src="{{ asset('img/testimonials/demo.jpg') }}" alt="customer">
-                      <div class="qrt-testimonial-name">
-                        <h4 class="qrt-mb-5">Dr. Shahjan Tapan</h4>
-                        <div class="qrt-el-suptitle">Advance Development Technologies Limited</div>
-                      </div>
-                    </div>
-                    <div class="qrt-testimonial-text">
-                        Polock Interior Design Limited turned my house into a home. At the end, it was better than I could have ever imagined. Love it!
-                    </div>
-                    <ul class="qrt-stars">
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="qrt-testimonial">
-                    <div class="qrt-testimonial-header">
-                      <img src="{{ asset('img/testimonials/demo.jpg') }}" alt="customer">
-                      <div class="qrt-testimonial-name">
-                        <h4 class="qrt-mb-5">Dr. Shaliha Begum</h4>
-                        <div class="qrt-el-suptitle">Lab Aid Properties Limited</div>
-                      </div>
-                    </div>
-                    <div class="qrt-testimonial-text">
-                        It’s great working with Polock Interior Design on few of my residential and commercial projects! We highly recommend working with the progressive interior design and easy execution!
-                    </div>
-                    <ul class="qrt-stars">
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li class="qrt-empty"><i class="fas fa-star"></i></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="qrt-testimonial">
-                    <div class="qrt-testimonial-header">
-                      <img src="{{ asset('img/testimonials/demo.jpg') }}" alt="customer">
-                      <div class="qrt-testimonial-name">
-                        <h4 class="qrt-mb-5">Mrs. M. Shabbir Hossain</h4>
-                        <div class="qrt-el-suptitle">Sheltech (Pvt.) Limited</div>
-                      </div>
-                    </div>
-                    <div class="qrt-testimonial-text">
-                        Best decision ever! There are no words to express what these wonderful and beautiful human beings did for us. They read us, understood our needs and captured our style with unbelievable professionalism.
-                    </div>
-                    <ul class="qrt-stars">
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li class="qrt-empty"><i class="fas fa-star"></i></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="qrt-testimonial">
-                    <div class="qrt-testimonial-header">
-                      <img src="{{ asset('img/testimonials/demo.jpg') }}" alt="customer">
-                      <div class="qrt-testimonial-name">
-                        <h4 class="qrt-mb-5">SkyDesk</h4>
-                        <div class="qrt-el-suptitle">Glass House, Gulshan</div>
-                      </div>
-                    </div>
-                    <div class="qrt-testimonial-text">
-                        PIDL is extremely dedicated, meticulous and without any doubt, one of the good Design Firms in Bangladesh.
-                    </div>
-                    <ul class="qrt-stars">
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li class="qrt-empty"><i class="fas fa-star"></i></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <div class="col-6">
-
-            <div class="swiper-testi-pagination qrt-cursor-color qrt-cursor-scale"></div>
-
-          </div>
-          <div class="col-6">
-
-            <div class="qrt-slider-nav">
-              <!-- prev -->
-              <div class="qrt-slider-prev qrt-testi-prev qrt-cursor-color qrt-cursor-scale"><i class="fas fa-arrow-left"></i></div>
-              <!-- next -->
-              <div class="qrt-slider-next qrt-testi-next qrt-cursor-color qrt-cursor-scale"><i class="fas fa-arrow-right"></i></div>
-            </div>
-
-          </div>
-
-
-        </div>
-
-        <div class="qrt-divider"></div>
-
-        {{-- <div class="row">
           <div class="col-lg-12">
 
             <div class="swiper-container qrt-brands-slider" style="overflow: visible">
@@ -364,7 +326,7 @@
             </div>
 
           </div>
-        </div> --}}
+        </div>
         @include('frontend.include.footer2')
 
       </div>

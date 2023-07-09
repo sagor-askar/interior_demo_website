@@ -33,15 +33,18 @@
   <div class="qrt-app">
     <div class="qrt-preloader">
       <div class="qrt-preloader-content">
-        <div class="qrt-logo">
-          <img src="{{ asset('img/Logo_PID-02.png') }}" alt="Quarty">
-        </div>
+        {{-- <div class="qrt-logo"> --}}
+          <p style="color: white">Polock Interior Design</p>
+          {{-- <img src="{{ asset('img/Logo_PID-02.png') }}" alt="Quarty"> --}}
+        {{-- </div> --}}
         <div id="preloader" class="qrt-preloader-load"></div>
       </div>
     </div>
     <div id="cursor" class="qrt-cursor">
-      <div></div>
-      <div class="qrt-follower"><i class="fas fa-circle-notch"></i></div>
+      <div>
+
+      </div>
+      {{-- <div class="qrt-follower"><i class="fas fa-circle-notch"></i></div> --}}
     </div>
     @include('frontend.include.header')
     
@@ -74,7 +77,33 @@
 
     <!-- main js -->
     <script src="{{ asset('/') }}js/main.js"></script>
+    {{-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script> --}}
+    <script>
+      $('.counting').each(function() {
+          var $this = $(this),
+              countTo = $this.attr('data-count');
+          
+          $({ countNum: $this.text()}).animate({
+            countNum: countTo
+          },
     
+          {
+    
+            duration: 5000,
+            easing:'linear',
+            step: function() {
+              $this.text(Math.floor(this.countNum));
+            },
+            complete: function() {
+              $this.text(this.countNum);
+              //alert('finished');
+            }
+    
+          });  
+          
+    
+      });
+    </script>
 
 </body>
 

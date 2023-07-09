@@ -8,18 +8,18 @@
         <div id="qrt-dynamic-menu" class="qrt-dynamic-menu">
           <nav>
             <ul>
-              <li class="current-menu-item">
+              <li class="{{ request()->is("/") || request()->is("/*") ? "current-menu-item" : "" }}">
                 <a class="qrt-mobile-fix" href="{{ url('/') }}">Home</a>
                
               </li>
-              <li>
+              <li class="{{ request()->is("about") || request()->is("about/*") ? "current-menu-item" : "" }}">
                 <a class="qrt-mobile-fix" href="{{ route('frontend.about') }}">About</a>
               </li>
-              <li>
+              <li class="{{ request()->is("portfolio") || request()->is("portfolio/*") ? "current-menu-item" : "" }}">
                 <a class="qrt-mobile-fix" href="{{ route('frontend.portfolio') }}">Portfolio</a>
                
               </li>
-              <li>
+              <li class="{{ request()->is("contact-us") || request()->is("contact-us/*") ? "current-menu-item" : "" }}">
                 <a class="qrt-mobile-fix" href="{{ route('frontend.contact') }}">Contact</a>
                
               </li>              
