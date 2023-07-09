@@ -28,7 +28,7 @@
         </div>
       </div>
       <div class="qrt-buttons">
-        <a href="contact-2.html"
+        <a href="{{ route('frontend.contact') }}"
           class="qrt-btn qrt-btn-md qrt-btn-color qrt-send-request qrt-anima-link qrt-mr-20"><span>Send
             request</span></a>
         <div class="qrt-menu-btn qrt-cursor-color qrt-cursor-scale"><span></span></div>

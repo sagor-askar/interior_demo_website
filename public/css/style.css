@@ -469,7 +469,7 @@ body {
         width: 80px;
         margin: 0 auto; }
         .qrt-app .qrt-preloader .qrt-preloader-content .qrt-logo img {
-          width: 100%;
+          width: 130%;
           /* -webkit-filter: invert(100%) brightness(150%);
                   filter: invert(100%) brightness(150%);  */
                 }
@@ -538,7 +538,7 @@ body {
       margin-left: 10px;
       width: 80px; }
       .qrt-app .qrt-top-bar .qrt-logo img {
-        width: 100%;
+        width: 250%;
         /* -webkit-filter: invert(100%) brightness(150%);
                 filter: invert(100%) brightness(150%);  */
             }
