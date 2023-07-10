@@ -6,18 +6,6 @@
 
       <div class="qrt-page-cover">
         <img src="img/banners/cover2.jpg" alt="our office">
-        {{-- <div class="qrt-about-info">
-          <div class="qrt-cover-info">
-            <ul class="qrt-table">
-              <li>
-                <h5 class="qrt-white">Main office</h5><span>Banani OLD DOHS</span></a>
-              </li>
-              <li>
-                <h5 class="qrt-white">Adress:</h5><a href="https://goo.gl/maps/MAa6Au5d9ZMgSfBV7" target="_blank" data-no-swup><span>1B,House#68/A,Road#05.</span></a>
-              </li>
-            </ul>
-          </div>
-        </div> --}}
       </div>
 
     </div>
@@ -77,7 +65,7 @@
             <h3 class="qrt-mb-40 qrt-text">Get in touch</h3>
 
           </div>
-          <div class="col-lg-12">
+          <div class="col-lg-6">
 
             <form id="form" class="qrt-contact-form">
               <div class="row">
@@ -112,17 +100,7 @@
             </form>
 
           </div>
-        </div>
-
-        <div class="qrt-divider qrt-space-fix"></div>
-
-        <div class="row">
-          <div class="col-lg-12">
-
-            <h3 class="qrt-mb-40 qrt-text qrt-text">Welcome to visit</h3>
-
-          </div>
-          <div class="col-lg-12">
+          <div class="col-lg-6">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3650.663566969391!2d90.3968891!3d23.7949918!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c71124700001%3A0x221630bc401dbacd!2sPolock%20Group!5e0!3m2!1sen!2sbd!4v1688808389614!5m2!1sen!2sbd" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             {{-- <div class="qrt-map-frame qrt-map-frame-2">
               <div class="qrt-lock"><i class="fas fa-lock"></i></div>
@@ -132,7 +110,7 @@
             </div> --}}
 
           </div>
-        </div>
+        </div>     
 
         <div class="qrt-divider"></div>
 

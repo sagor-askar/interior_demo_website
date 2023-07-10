@@ -19,7 +19,7 @@
     <div class="qrt-content-frame">
       <div class="qrt-left">      
 
-        <div class="row">
+        <div class="row" style="padding: 50px 0px 40px 0px;">
           <div class="col-lg-4">
 
             <h3 class="qrt-mb-40 qrt-text">What we do</h3>
@@ -32,13 +32,6 @@
 
             <p>In our studio, every project is an open ended enquiry, helping people to challenge their existing state and work towards an alternative, desired one. We provide guidance, expertise and experience across all phases in the
               architectural process, ranging from thinking, to designing, building, and ultimately finding the right way to communicate the results.</p>
-
-          </div>
-          <div class="col-lg-12">
-
-            <blockquote>
-              Change is an opportunity! We want to lead people towards durable solutions and designs that enhance feelings of closeness, wellbeing and hopefully, happiness.
-            </blockquote>
 
           </div>
         </div>
@@ -63,9 +56,9 @@
               </a>
               <div class="qrt-post-descr">
                 <div>
-                  <h4 class="qrt-cursor-color qrt-post-title" style="font-size: 19px;font-weight: 500;"><a href="#" class="qrt-anima-link">Winning An Architecture Competition</a></h4>
+                  {{-- <h4 class="qrt-cursor-color qrt-post-title" style="font-size: 19px;font-weight: 500;"><a href="#" class="qrt-anima-link">Winning An Architecture Competition</a></h4>
                   <div class="qrt-port-short-text">Back in 2015, Bee Breeders launched the Krakow Oxygen Home architecture competition which tasked participants to create designs for a lung cancer care center in the heart of one of the
-                    most-polluted cities in the world.</div>
+                    most-polluted cities in the world.</div> --}}
                 </div>
               </div>
             </div>
@@ -83,9 +76,9 @@
               </a>
               <div class="qrt-post-descr">
                 <div>
-                  <h4 class="qrt-cursor-color qrt-post-title" style="font-size: 19px;font-weight: 500;"><a href="#" class="qrt-anima-link">A Proper Desk for an Architect</a></h4>
+                  {{-- <h4 class="qrt-cursor-color qrt-post-title" style="font-size: 19px;font-weight: 500;"><a href="#" class="qrt-anima-link">A Proper Desk for an Architect</a></h4>
                   <div class="qrt-port-short-text">Back in 2015, Bee Breeders launched the Krakow Oxygen Home architecture competition which tasked participants to create designs for a lung cancer care center in the heart of one of the
-                    most-polluted cities in the world.</div>
+                    most-polluted cities in the world.</div> --}}
                 </div>
               </div>
             </div>
@@ -103,9 +96,9 @@
               </a>
               <div class="qrt-post-descr">
                 <div>
-                  <h4 class="qrt-cursor-color qrt-post-title" style="font-size: 19px;font-weight: 500;"><a href="#" class="qrt-anima-link">Model Making In Architecture</a></h4>
+                  {{-- <h4 class="qrt-cursor-color qrt-post-title" style="font-size: 19px;font-weight: 500;"><a href="#" class="qrt-anima-link">Model Making In Architecture</a></h4>
                   <div class="qrt-port-short-text">The importance of model making in architecture could be thought to have reduced in recent years. With the introduction of new and innovative architecture design technology, is there still a place
-                    for model making in architecture? Stanton Williams, director at Stirling Prize-winning practice, Gavin Henderson, believes that it’s more important than ever.</div>
+                    for model making in architecture? Stanton Williams, director at Stirling Prize-winning practice, Gavin Henderson, believes that it’s more important than ever.</div> --}}
                 </div>
               </div>
             </div>
@@ -123,9 +116,9 @@
               </a>
               <div class="qrt-post-descr">
                 <div>
-                  <h4 class="qrt-cursor-color qrt-post-title" style="font-size: 19px;font-weight: 500;"><a href="#" class="qrt-anima-link">Can Skyscrapers Be Sustainable</a></h4>
+                  {{-- <h4 class="qrt-cursor-color qrt-post-title" style="font-size: 19px;font-weight: 500;"><a href="#" class="qrt-anima-link">Can Skyscrapers Be Sustainable</a></h4>
                   <div class="qrt-port-short-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, id, reprehenderit earum quidem error hic deserunt asperiores suscipit. Magni doloribus, ab cumque modi quidem doloremque nostrum quam
-                    tempora, corporis explicabo nesciunt accusamus ad architecto sint voluptatibus tenetur ipsa hic eius.</div>
+                    tempora, corporis explicabo nesciunt accusamus ad architecto sint voluptatibus tenetur ipsa hic eius.</div> --}}
                 </div>
               </div>
             </div>

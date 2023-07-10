@@ -132,7 +132,7 @@
     <div class="qrt-content-frame">
 
         <div class="qrt-left">
-          <div class="row" style="padding: 100px 125px 65px 178px;">
+          <div class="row" style="padding: 100px 300px 65px 178px;">
             <div class="col-lg-6 col-md-12">
 
               <div class="qrt-about-me-cover">

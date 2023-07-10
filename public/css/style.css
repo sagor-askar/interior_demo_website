@@ -2100,7 +2100,7 @@ content
           margin-left: auto;
           background: #28292c;
           padding: 4px 15px;
-          font-size: 10px; }
+          font-size: 25px; }
           .qrt-timeline .qrt-timeline-item .qrt-timeline-content .qrt-card-header .qrt-date::before {
             content: '';
             position: absolute;
