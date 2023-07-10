@@ -78,32 +78,30 @@
     <!-- main js -->
     <script src="{{ asset('/') }}js/main.js"></script>
     {{-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script> --}}
-    <script>
-      $('.counting').each(function() {
-          var $this = $(this),
-              countTo = $this.attr('data-count');
+    <script type="text/javascript">
+              let count = document.querySelectorAll(".count")
+        let arr = Array.from(count)
+
+
+
+        arr.map(function(item){
+          let startnumber = 0
+
+          function counterup(){
+          startnumber++
+          item.innerHTML= startnumber
           
-          $({ countNum: $this.text()}).animate({
-            countNum: countTo
-          },
-    
-          {
-    
-            duration: 5000,
-            easing:'linear',
-            step: function() {
-              $this.text(Math.floor(this.countNum));
-            },
-            complete: function() {
-              $this.text(this.countNum);
-              //alert('finished');
-            }
-    
-          });  
-          
-    
-      });
-    </script>
+          if(startnumber == item.dataset.number){
+              clearInterval(stop)
+          }
+        }
+
+        let stop =setInterval(function(){
+          counterup()
+        },50)
+
+        })
+  </script>
 
 </body>
 

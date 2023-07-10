@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-lg-12">
 
-      <h3 class="qrt-mb-40">Testimonials</h3>
+      <h3 class="qrt-mb-40 qrt-text">Testimonials</h3>
 
     </div>
     <div class="col-lg-12">
@@ -13,7 +13,7 @@
               <div class="qrt-testimonial-header">
                 <img src="{{ asset('img/testimonials/demo.jpg') }}" alt="customer">
                 <div class="qrt-testimonial-name">
-                  <h4 class="qrt-mb-5">Mr. Mohammed Shajahan Tapan, CIP</h4>
+                  <h4 class="qrt-mb-5" style="font-size: 17px;font-weight: 500;">Mr. Mohammed Shajahan Tapan, CIP</h4>
                   <div class="qrt-el-suptitle">Asset Developments & Holding Limited</div>
                 </div>
               </div>
@@ -34,7 +34,7 @@
               <div class="qrt-testimonial-header">
                 <img src="{{ asset('img/testimonials/demo.jpg') }}" alt="customer">
                 <div class="qrt-testimonial-name">
-                  <h4 class="qrt-mb-5">Dr. Shahjan Tapan</h4>
+                  <h4 class="qrt-mb-5" style="font-size: 17px;font-weight: 500;">Dr. Shahjan Tapan</h4>
                   <div class="qrt-el-suptitle">Advance Development Technologies Limited</div>
                 </div>
               </div>
@@ -55,7 +55,7 @@
               <div class="qrt-testimonial-header">
                 <img src="{{ asset('img/testimonials/demo.jpg') }}" alt="customer">
                 <div class="qrt-testimonial-name">
-                  <h4 class="qrt-mb-5">Dr. Shaliha Begum</h4>
+                  <h4 class="qrt-mb-5" style="font-size: 17px;font-weight: 500;">Dr. Shaliha Begum</h4>
                   <div class="qrt-el-suptitle">Lab Aid Properties Limited</div>
                 </div>
               </div>
@@ -67,7 +67,8 @@
                 <li><i class="fas fa-star"></i></li>
                 <li><i class="fas fa-star"></i></li>
                 <li><i class="fas fa-star"></i></li>
-                <li class="qrt-empty"><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                {{-- <li class="qrt-empty"><i class="fas fa-star"></i></li> --}}
               </ul>
             </div>
           </div>
@@ -76,7 +77,7 @@
               <div class="qrt-testimonial-header">
                 <img src="{{ asset('img/testimonials/demo.jpg') }}" alt="customer">
                 <div class="qrt-testimonial-name">
-                  <h4 class="qrt-mb-5">Mrs. M. Shabbir Hossain</h4>
+                  <h4 class="qrt-mb-5" style="font-size: 17px;font-weight: 500;">Mrs. M. Shabbir Hossain</h4>
                   <div class="qrt-el-suptitle">Sheltech (Pvt.) Limited</div>
                 </div>
               </div>
@@ -88,7 +89,8 @@
                 <li><i class="fas fa-star"></i></li>
                 <li><i class="fas fa-star"></i></li>
                 <li><i class="fas fa-star"></i></li>
-                <li class="qrt-empty"><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                {{-- <li class="qrt-empty"><i class="fas fa-star"></i></li> --}}
               </ul>
             </div>
           </div>
@@ -97,7 +99,7 @@
               <div class="qrt-testimonial-header">
                 <img src="{{ asset('img/testimonials/demo.jpg') }}" alt="customer">
                 <div class="qrt-testimonial-name">
-                  <h4 class="qrt-mb-5">SkyDesk</h4>
+                  <h4 class="qrt-mb-5" style="font-size: 17px;font-weight: 500;">SkyDesk</h4>
                   <div class="qrt-el-suptitle">Glass House, Gulshan</div>
                 </div>
               </div>
@@ -109,7 +111,8 @@
                 <li><i class="fas fa-star"></i></li>
                 <li><i class="fas fa-star"></i></li>
                 <li><i class="fas fa-star"></i></li>
-                <li class="qrt-empty"><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                
               </ul>
             </div>
           </div>

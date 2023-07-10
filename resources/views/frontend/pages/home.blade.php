@@ -132,59 +132,23 @@
     <div class="qrt-content-frame">
 
         <div class="qrt-left">
-            <div class="row">
-                <div class="col-lg-6 col-md-12">
-  
-                  <div class="qrt-team-member qrt-member-about">
-                    <div class="qrt-about-me-cover">
-                      <img src="{{ asset('img/projects/original-size/05.jpg') }}" alt="team member">
-                      <div class="qrt-hint-frame qrt-left">
-                        <div class="qrt-scroll-hint">
-                          <span></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-  
-                </div>
-                <div class="col-lg-6 col-md-12 align-self-center">
-  
-                  <div class="qrt-member-about">
-                    <h3 class="qrt-mb-5">Polock Interior Design</h3>
-                    <div class="qrt-el-suptitle">Architect Assistant</div>
-  
-                    <div class="qrt-divider"></div>
-  
-                    <ul class="qrt-table">
-                      <li>
-                        <h5>Joined Quarty:</h5><span>May 2017</span>
-                      </li>
-                      <li>
-                        <h5>Country:</h5><span>Canada</span>
-                      </li>
-                      <li>
-                        <h5>City:</h5><span>Toronto</span>
-                      </li>
-                      <li>
-                        <h5>Education:</h5><span>BNG National University</span>
-                      </li>
-                      <li>
-                        <h5>Email:</h5><span><a class="qrt-cursor-color" href="mailto:quarty.inbox@mail.com">quarty.inbox@mail.com</a></span>
-                      </li>
-                    </ul>
-  
-                    <div class="qrt-divider"></div>
-  
-                    <ul class="qrt-social-list">
-                      <li><a href="#." class="qrt-cursor-scale qrt-cursor-color"><i class="fab fa-behance"></i></a></li>
-                      <li><a href="#." class="qrt-cursor-scale qrt-cursor-color"><i class="fab fa-dribbble"></i></a></li>
-                      <li><a href="#." class="qrt-cursor-scale qrt-cursor-color"><i class="fab fa-instagram"></i></a></li>
-                      <li><a href="#." class="qrt-cursor-scale qrt-cursor-color"><i class="fab fa-linkedin-in"></i></a></li>
-                    </ul>
-                  </div>
-  
-                </div>
+          <div class="row" style="padding: 100px 125px 65px 178px;">
+            <div class="col-lg-6 col-md-12">
+
+              <div class="qrt-about-me-cover">
+                <img src="img/projects/thumbnails/v-1.jpg" alt="team member">
               </div>
+
+            </div>
+            <div class="col-lg-6 col-md-12 align-self-center">
+
+              <div class="qrt-member-about">
+                <h3 class="qrt-mb-5" style="font-size: 25px;text-transform: uppercase;color: #000;font-weight: 100;padding: 0px 0px 15px 0px;">WE ARE Polock Interior design</h3>
+                <div class="qrt-mb-20">Polock Interior Design Limited is one of the design intensive architecture, interior design, engineering, and urban planning architecture firms in Bangladesh. We have completed more than 300 projects in Dhaka city and around. We are a growing bunch of young professionals committedly working in an effort to make our mark on Bangladesh map through iconic building footprints, targeting excellence, innovation, and sustainability in our designs.Our portfolio contains some of the diverse range of architectural practices from vibrant interior design with customized furniture, luxurious vacation house, inspiring learning centers, devotional mosques to cutting-edge factory buildings. Our design values are modern: universally rational with thriving spatial relationships, honest expression of materials, clean lines, planes & volumes while also being reflective of the characters of our clients</div>                
+              </div>
+
+            </div>
+          </div>
   
               <div class="row">
                 <div class="col-lg-12">
@@ -199,81 +163,98 @@
             <div class="qrt-divider"></div>
 
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
+                  <div id="counter">
 
-                    <div class="qrt-counter-frame">
-                        <div class="qrt-counter-box">
-                            <span class="qrt-counter counting" data-count="10">0</span>
-                        </div>
-                        <h5>Years Experience</h5>
+                    <div class="item">
+                      <h1 class="count" data-number="220" >220</h1>
+                      <h3 class="text">Reward</h3>
                     </div>
-
-                </div>
-                <div class="col-lg-3 col-sm-6">
-
-                    <div class="qrt-counter-frame">
-                        <div class="qrt-counter-box">
-                            <span class="qrt-counter counting" data-count="143">0</span>
-                        </div>
-                        <h5>Completed Projects</h5>
+                    <div class="item">
+                      <h1 class="count" data-number="190" >190</h1>
+                      <h3 class="text">year+ Eexperience</h3>
                     </div>
-
-                </div>
-                <div class="col-lg-3 col-sm-6">
-
-                    <div class="qrt-counter-frame">
-                        <div class="qrt-counter-box">
-                            <span class="qrt-counter counting" data-count="114">0</span>
-                        </div>
-                        <h5>Happy Customers</h5>
+                    <div class="item">
+                      <h1 class="count" data-number="560" >560</h1>
+                      <h3 class="text">project completed</h3>
                     </div>
-
-                </div>
-                <div class="col-lg-3 col-sm-6">
-
-                    <div class="qrt-counter-frame">
-                        <div class="qrt-counter-box ">
-                            <span class="qrt-counter counting" data-count="20">0</span>
-                        </div>
-                        <h5>Honors and Awards</h5>
+                    <div class="item">
+                      <h1 class="count" data-number="300" >300</h1>
+                      <h3 class="text">happy clients</h3>
                     </div>
-
-                </div>
+                  
+                  </div>
+               
             </div>
             <div class="qrt-divider"></div>
 
             <div class="row">
+              <div class="col-lg-6">
 
-              <div class="col-lg-12">
+                <h3 class="qrt-mb-40 qrt-text">Our Service</h3>
 
-                <h3 class="qrt-mb-40">My Services</h3>
+                <div class="qrt-timeline qrt-mb-40">
 
-              </div>
+                  <div class="qrt-timeline-item">
+                    <div class="qrt-timeline-mark"></div>
+                    <div class="qrt-a qrt-timeline-content">
+                      <div class="qrt-card-header">
+                        <div class="qrt-date qrt-mb-20">Interior Architecture</div>
+                        <h4 class="qrt-mb-5">University of toronto</h4>
+                        
+                      </div>
+                      
+                     
+                    </div>
+                  </div>
 
-              <div class="col-lg-4">
+                  <div class="qrt-timeline-item">
+                    <div class="qrt-timeline-mark"></div>
+                    <div class="qrt-a qrt-timeline-content">
+                      <div class="qrt-card-header">
+                        <div class="qrt-date qrt-mb-20">Industry Buildings</div>
+                        <h4 class="qrt-mb-5">3D visualization courses</h4>
+                       
+                      </div>
+                      
+                      
+                    </div>
+                  </div>
 
-                <div class="qrt-icon-box">
-                  <img class="mb-20" src="img/icons/icon-1.svg" alt="icon">
-                  <h4 class="mb-20">Architecture</h4>
-                  <div>Vero explicabo dolorem quod voluptatem consequatur, sint eius voluptates, amet. Animi perspiciatis amet.</div>
                 </div>
 
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-6">
 
-                <div class="qrt-icon-box">
-                  <img class="mb-20" src="img/icons/icon-2.svg" alt="icon">
-                  <h4 class="mb-20">Interior design</h4>
-                  <div>Eum sapiente odit nisi ad et, amet. Animi perspiciatis amet, quo? Ea similique, ex quas tempore excepturi eos eaque.</div>
-                </div>
+                <h3 class="qrt-mb-40" style="padding: 8px"></h3>
 
-              </div>
-              <div class="col-lg-4">
+                <div class="qrt-timeline qrt-mb-40">
 
-                <div class="qrt-icon-box">
-                  <img class="mb-20" src="img/icons/icon-3.svg" alt="icon">
-                  <h4 class="mb-20">Repair</h4>
-                  <div>Animi perspiciatis amet, quo? Ea similique, ex quas tempore excepturi eos eaque esse itaque alias eveniet, vero explicabo.</div>
+                  <div class="qrt-timeline-item">
+                    <div class="qrt-timeline-mark"></div>
+                    <div class="qrt-a qrt-timeline-content">
+                      <div class="qrt-card-header">
+                        <div class="qrt-date qrt-mb-20">Landscape Design</div>
+                        <h4 class="qrt-mb-5">Envato market</h4>
+                        
+                      </div>                    
+                     
+
+                    </div>
+                  </div>
+                  <div class="qrt-timeline-item">
+                    <div class="qrt-timeline-mark"></div>
+                    <div class="qrt-a qrt-timeline-content">
+                      <div class="qrt-card-header">
+                        <div class="qrt-date qrt-mb-20">Commercial Buildings</div>
+                        <h4 class="qrt-mb-5">Themeforest</h4>
+                        
+                      </div>
+                      
+                      
+
+                    </div>
+                  </div>                
+
                 </div>
 
               </div>
@@ -282,7 +263,7 @@
             <div class="row">
                 <div class="col-lg-12">
   
-                  <h3 class="qrt-mb-40">Latest Viktoria's works</h3>
+                  <h3 class="qrt-mb-40 qrt-text">Latest works</h3>
   
                 </div>
                 <div class="col-lg-12">
@@ -297,7 +278,7 @@
                             <div class="qrt-item-zoom qrt-cursor-color"><i class="fas fa-expand"></i></div>
                           </a>
                           <div class="qrt-work-descr">
-                            <h4 class="qrt-cursor-color qrt-white"><a href="{{ route('frontend.single.work') }}">Project title</a></h4>
+                            <h4 class="qrt-cursor-color qrt-white" style="font-size: 17px;font-weight: normal;"><a href="{{ route('frontend.single.work') }}">Project title</a></h4>
                             <a href="{{ route('frontend.single.work') }}" class="qrt-cursor-scale qrt-work-more"><i class="fas fa-arrow-right"></i></a>
                           </div>
                         </div>
@@ -311,7 +292,7 @@
                             <div class="qrt-item-zoom qrt-cursor-color"><i class="fas fa-expand"></i></div>
                           </a>
                           <div class="qrt-work-descr">
-                            <h4 class="qrt-cursor-color qrt-white"><a href="{{ route('frontend.single.work') }}">Project title</a></h4>
+                            <h4 class="qrt-cursor-color qrt-white" style="font-size: 17px;font-weight: normal;"><a href="{{ route('frontend.single.work') }}">Project title</a></h4>
                             <a href="{{ route('frontend.single.work') }}" class="qrt-cursor-scale qrt-work-more"><i class="fas fa-arrow-right"></i></a>
                           </div>
                         </div>
@@ -325,7 +306,7 @@
                             <div class="qrt-item-zoom qrt-cursor-color"><i class="fas fa-expand"></i></div>
                           </a>
                           <div class="qrt-work-descr">
-                            <h4 class="qrt-cursor-color qrt-white"><a href="{{ route('frontend.single.work') }}">Project title</a></h4>
+                            <h4 class="qrt-cursor-color qrt-white" style="font-size: 17px;font-weight: normal;"><a href="{{ route('frontend.single.work') }}">Project title</a></h4>
                             <a href="{{ route('frontend.single.work') }}" class="qrt-cursor-scale qrt-work-more"><i class="fas fa-arrow-right"></i></a>
                           </div>
                         </div>
@@ -334,6 +315,7 @@
                     </div>
                   </div>
                 </div>
+               
                 <div class="col-6">
   
                   <div class="swiper-latest-works-pagination"></div>
@@ -349,6 +331,11 @@
                   </div>
   
                 </div>
+                <div class="qrt-buttons" style="padding: 20px 0px 20px 0px">
+                  <a href="{{ route('frontend.portfolio') }}"
+                    class="qrt-btn qrt-btn-md qrt-btn-color qrt-send-request qrt-anima-link qrt-mr-20" style="font-size: 15px;font-weight:normal"><span>View Projects</span>
+                  </a>
+              </div>
               </div>
             <div class="qrt-divider qrt-space-fix"></div>
 
@@ -376,4 +363,5 @@
         </div>
     </div>
     @endsection
+    
   

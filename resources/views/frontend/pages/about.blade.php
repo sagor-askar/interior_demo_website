@@ -46,129 +46,92 @@
         <div class="qrt-divider"></div>
 
         <div class="row">
+          <div class="col-lg-12">
+
+            <h3 class="qrt-mb-40 qrt-text">achievement</h3>
+
+          </div>
           <div class="col-lg-6">
 
-            <h3 class="qrt-mb-40 qrt-text">Achievement</h3>
-
-            <div class="qrt-timeline qrt-mb-40">
-
-              <div class="qrt-timeline-item">
-                <div class="qrt-timeline-mark"></div>
-                <div class="qrt-a qrt-timeline-content">
-                  <div class="qrt-card-header">
-                    <div class="qrt-date qrt-mb-20">jan 2018 - may 2020</div>
-                    <h4 class="qrt-mb-5">University of toronto</h4>
-                    {{-- <div class="qrt-el-suptitle">Student</div> --}}
-                  </div>
-                  <div class=" qrt-mb-20">Dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</div>
-                  <a data-fancybox="diploma" href="img/files/diploma.jpg" class="qrt-link qrt-w-chevron">View</a>
+            <div class="qrt-post-frame qrt-popular">
+              <a href="#" class="qrt-post-thumb qrt-cursor-scale qrt-anima-link">
+                <img src="img/blog/1.jpg" alt="thumbnail">
+                <div class="qrt-post-date">
+                  <span><i class="far fa-user"></i>Emma Newman</span>
+                  <span><i class="far fa-clock"></i> 22.08.2020</span>
+                </div>
+              </a>
+              <div class="qrt-post-descr">
+                <div>
+                  <h4 class="qrt-cursor-color qrt-post-title" style="font-size: 19px;font-weight: 500;"><a href="#" class="qrt-anima-link">Winning An Architecture Competition</a></h4>
+                  <div class="qrt-port-short-text">Back in 2015, Bee Breeders launched the Krakow Oxygen Home architecture competition which tasked participants to create designs for a lung cancer care center in the heart of one of the
+                    most-polluted cities in the world.</div>
                 </div>
               </div>
-
-              <div class="qrt-timeline-item">
-                <div class="qrt-timeline-mark"></div>
-                <div class="qrt-a qrt-timeline-content">
-                  <div class="qrt-card-header">
-                    <div class="qrt-date qrt-mb-20">jan 2018 - may 2020</div>
-                    <h4 class="qrt-mb-5">3D visualization courses</h4>
-                    {{-- <div class="qrt-el-suptitle">Student</div> --}}
-                  </div>
-                  <div class=" qrt-mb-20">Dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</div>
-                  <a data-fancybox="diploma" href="img/files/certificate.jpg" class="qrt-link qrt-w-chevron">View</a>
-                </div>
-              </div>
-
             </div>
 
           </div>
           <div class="col-lg-6">
 
-            <h3 class="qrt-mb-40"></h3>
-
-            <div class="qrt-timeline qrt-mb-40">
-
-              <div class="qrt-timeline-item">
-                <div class="qrt-timeline-mark"></div>
-                <div class="qrt-a qrt-timeline-content">
-                  <div class="qrt-card-header">
-                    <div class="qrt-date qrt-mb-20">jan 2018 - may 2020</div>
-                    <h4 class="qrt-mb-5">Envato market</h4>
-                    {{-- <div class="qrt-el-suptitle">Template author</div> --}}
-                  </div>
-                  <div class="qrt-mb-20">Dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</div>
-                  <a data-fancybox="recommendation" href="#rec-1" class="qrt-link qrt-w-chevron">View</a>
-
+            <div class="qrt-post-frame">
+              <a href="#" class="qrt-post-thumb qrt-cursor-scale qrt-anima-link">
+                <img src="img/blog/2.jpg" alt="thumbnail">
+                <div class="qrt-post-date">
+                  <span><i class="far fa-user"></i>Emma Newman</span>
+                  <span><i class="far fa-clock"></i> 22.08.2020</span>
+                </div>
+              </a>
+              <div class="qrt-post-descr">
+                <div>
+                  <h4 class="qrt-cursor-color qrt-post-title" style="font-size: 19px;font-weight: 500;"><a href="#" class="qrt-anima-link">A Proper Desk for an Architect</a></h4>
+                  <div class="qrt-port-short-text">Back in 2015, Bee Breeders launched the Krakow Oxygen Home architecture competition which tasked participants to create designs for a lung cancer care center in the heart of one of the
+                    most-polluted cities in the world.</div>
                 </div>
               </div>
-
-              <div class="qrt-rec-popup" style="display: none;" id="rec-1">
-
-                <div class="qrt-testimonial">
-                  <div class="qrt-testimonial-header">
-                    <img src="img/testimonials/t1.jpg" alt="customer">
-                    <div class="qrt-testimonial-name">
-                      <h4 class="qrt-mb-5">Emma Newman</h4>
-                      <div class="qrt-el-suptitle">Chief Architect</div>
-                    </div>
-                  </div>
-                  <div class="qrt-testimonial-text">
-                    We engaged Paul Trueman of quarty Studio to manage the planning process and to design and manage a full renovation and remodelling of our 1930s house. We really enjoyed working with Paul. We would not hesitate to
-                    recommend Paul and Quarty.
-                  </div>
-                  <ul class="qrt-stars">
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                  </ul>
-                </div>
-
-              </div>
-
-              <div class="qrt-timeline-item">
-                <div class="qrt-timeline-mark"></div>
-                <div class="qrt-a qrt-timeline-content">
-                  <div class="qrt-card-header">
-                    <div class="qrt-date qrt-mb-20">jan 2018 - may 2020</div>
-                    <h4 class="qrt-mb-5">Themeforest</h4>
-                    {{-- <div class="qrt-el-suptitle">Art Director</div> --}}
-                  </div>
-                  <div class="qrt-mb-20">Dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</div>
-                  <a data-fancybox="recommendation" href="#rec-2" class="qrt-link qrt-w-chevron">View</a>
-
-                </div>
-              </div>
-
-              <div class="qrt-rec-popup" style="display: none;" id="rec-2">
-
-                <div class="qrt-testimonial">
-                  <div class="qrt-testimonial-header">
-                    <img src="img/testimonials/t2.jpg" alt="customer">
-                    <div class="qrt-testimonial-name">
-                      <h4 class="qrt-mb-5">Paul Trueman</h4>
-                      <div class="qrt-el-suptitle">Chief Architect</div>
-                    </div>
-                  </div>
-                  <div class="qrt-testimonial-text">
-                    We worked with Quarty Studio for approximately 2 years on the complete overhaul of our house. This included the design of the project, and the execution of the work. Quarty provided excellent design ideas but
-                    were also
-                    indispensable in managing the practical side of the build.
-                  </div>
-                  <ul class="qrt-stars">
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                    <li><i class="fas fa-star"></i></li>
-                  </ul>
-                </div>
-
-              </div>
-
             </div>
 
           </div>
+          <div class="col-lg-6">
+
+            <div class="qrt-post-frame">
+              <a href="#" class="qrt-post-thumb qrt-cursor-scale qrt-anima-link">
+                <img src="img/blog/3.jpg" alt="thumbnail">
+                <div class="qrt-post-date">
+                  <span><i class="far fa-user"></i>Emma Newman</span>
+                  <span><i class="far fa-clock"></i> 22.08.2020</span>
+                </div>
+              </a>
+              <div class="qrt-post-descr">
+                <div>
+                  <h4 class="qrt-cursor-color qrt-post-title" style="font-size: 19px;font-weight: 500;"><a href="#" class="qrt-anima-link">Model Making In Architecture</a></h4>
+                  <div class="qrt-port-short-text">The importance of model making in architecture could be thought to have reduced in recent years. With the introduction of new and innovative architecture design technology, is there still a place
+                    for model making in architecture? Stanton Williams, director at Stirling Prize-winning practice, Gavin Henderson, believes that it’s more important than ever.</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-6">
+
+            <div class="qrt-post-frame qrt-popular">
+              <a href="#" class="qrt-post-thumb qrt-cursor-scale qrt-anima-link">
+                <img src="img/blog/4.jpg" alt="thumbnail">
+                <div class="qrt-post-date">
+                  <span><i class="far fa-user"></i>Emma Newman</span>
+                  <span><i class="far fa-clock"></i> 22.08.2020</span>
+                </div>
+              </a>
+              <div class="qrt-post-descr">
+                <div>
+                  <h4 class="qrt-cursor-color qrt-post-title" style="font-size: 19px;font-weight: 500;"><a href="#" class="qrt-anima-link">Can Skyscrapers Be Sustainable</a></h4>
+                  <div class="qrt-port-short-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, id, reprehenderit earum quidem error hic deserunt asperiores suscipit. Magni doloribus, ab cumque modi quidem doloremque nostrum quam
+                    tempora, corporis explicabo nesciunt accusamus ad architecto sint voluptatibus tenetur ipsa hic eius.</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
         </div>
 
         <div class="qrt-divider qrt-space-fix"></div>
@@ -176,7 +139,7 @@
         <div class="row">
           <div class="col-lg-12">
 
-            <h3 class="qrt-mb-40">Our team</h3>
+            <h3 class="qrt-mb-40 qrt-text">Our team</h3>
 
           </div>
           <div class="col-lg-3">
@@ -187,7 +150,7 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5">Latiful Kabir Sujon</h4>
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Latiful Kabir Sujon</h4>
                   <span style="color: white">Senior Architect</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
@@ -203,7 +166,7 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5">Sarker Aliad Polok</h4>
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Sarker Aliad Polok</h4>
                   <span style="color: white">Associate Architect</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
@@ -219,7 +182,7 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5">Md.Abul Bashar</h4>
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Md.Abul Bashar</h4>
                   <span style="color: white">Civil Engineer</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
@@ -235,7 +198,7 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5">Rony Roy</h4>
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Rony Roy</h4>
                   <span style="color: white">Executive-Logistics</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
@@ -251,7 +214,7 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5">Kazi Minhajul Islam Najib</h4>
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Kazi Minhajul Islam Najib</h4>
                   <span style="color: white">Project Coordinator</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
@@ -267,7 +230,7 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5">Rifat Imtiaz</h4>
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Rifat Imtiaz</h4>
                   <span style="color: white">Senior Manager(HR & Admin)</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
@@ -283,7 +246,7 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5">Faishal Ahammad</h4>
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Faishal Ahammad</h4>
                   <span style="color: white">Executive(Accounts & HR)</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>

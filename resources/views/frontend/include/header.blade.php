@@ -9,18 +9,18 @@
           <nav>
             <ul>
               <li class="{{ request()->is("/") || request()->is("/*") ? "current-menu-item" : "" }}">
-                <a class="qrt-mobile-fix" href="{{ url('/') }}">Home</a>
+                <a class="qrt-mobile-fix" style="font-size: 15px;font-weight:normal" href="{{ url('/') }}">Home</a>
                
               </li>
               <li class="{{ request()->is("about") || request()->is("about/*") ? "current-menu-item" : "" }}">
-                <a class="qrt-mobile-fix" href="{{ route('frontend.about') }}">About</a>
+                <a class="qrt-mobile-fix" style="font-size: 15px;font-weight:normal" href="{{ route('frontend.about') }}">About</a>
               </li>
               <li class="{{ request()->is("portfolio") || request()->is("portfolio/*") ? "current-menu-item" : "" }}">
-                <a class="qrt-mobile-fix" href="{{ route('frontend.portfolio') }}">Portfolio</a>
+                <a class="qrt-mobile-fix" style="font-size: 15px;font-weight:normal" href="{{ route('frontend.portfolio') }}">Portfolio</a>
                
               </li>
               <li class="{{ request()->is("contact-us") || request()->is("contact-us/*") ? "current-menu-item" : "" }}">
-                <a class="qrt-mobile-fix" href="{{ route('frontend.contact') }}">Contact</a>
+                <a class="qrt-mobile-fix" style="font-size: 15px;font-weight:normal" href="{{ route('frontend.contact') }}">Contact</a>
                
               </li>              
             </ul>
@@ -29,7 +29,7 @@
       </div>
       <div class="qrt-buttons">
         <a href="{{ route('frontend.contact') }}"
-          class="qrt-btn qrt-btn-md qrt-btn-color qrt-send-request qrt-anima-link qrt-mr-20"><span>Send
+          class="qrt-btn qrt-btn-md qrt-btn-color qrt-send-request qrt-anima-link qrt-mr-20" style="font-size: 15px;font-weight:normal"><span>Send
             request</span></a>
         <div class="qrt-menu-btn qrt-cursor-color qrt-cursor-scale"><span></span></div>
         <div class="qrt-search-btn qrt-cursor-color qrt-cursor-scale"><i class="fas fa-search"></i></div>
