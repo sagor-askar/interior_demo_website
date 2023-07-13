@@ -31,13 +31,10 @@ class HomeController extends Controller
     public function singleWork()
     {
         return view('frontend.pages.single-work');
-    }
-
-   
+    }   
 
     public function contactUsPage()
-    {
-     
+    {     
         return view('frontend.pages.contact');
     }
 }
