@@ -24,6 +24,9 @@
               <div class="qrt-item-zoom qrt-cursor-color"><i class="fas fa-expand"></i></div>
               <div class="qrt-work-category"><span>architecture</span></div>
             </a>
+            <a data-fancybox="work" href="{{ asset('img/projects/original-size/02.jpg') }}"></a>
+            <a data-fancybox="work" href="{{ asset('img/projects/original-size/03.jpg') }}"></a>
+            <a data-fancybox="work" href="{{ asset('img/projects/original-size/04.jpg') }}"></a>
             <div class="qrt-work-descr">
               <h4 class="qrt-cursor-color qrt-white"><a href="{{ route('frontend.single.work') }}">Sunset House</a></h4><a
                 href="{{ route('frontend.single.work') }}" class="qrt-cursor-scale qrt-work-more"><i class="fas fa-arrow-right" style="color: white"></i></a>
@@ -36,6 +39,9 @@
               <div class="qrt-item-zoom qrt-cursor-color"><i class="fas fa-expand"></i></div>
               <div class="qrt-work-category"><span>interior</span></div>
             </a>
+            <a data-fancybox="works" href="{{ asset('img/projects/original-size/04.jpg') }}"></a>
+            <a data-fancybox="works" href="{{ asset('img/projects/original-size/03.jpg') }}"></a>
+            <a data-fancybox="works" href="{{ asset('img/projects/original-size/02.jpg') }}"></a>
             <div class="qrt-work-descr">
               <h4 class="qrt-cursor-color qrt-white"><a href="{{ route('frontend.single.work') }}">Sunset House</a></h4><a
                 href="{{ route('frontend.single.work') }}" class="qrt-cursor-scale qrt-work-more"><i class="fas fa-arrow-right" style="color: white"></i></a>
