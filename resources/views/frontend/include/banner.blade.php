@@ -4,6 +4,12 @@
             <div class="swiper-container qrt-brands-slider" style="overflow: visible">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
+                  <img src="{{ asset('img/brands/Polock-Group.png') }}" alt="brand">
+                </div>
+                <div class="swiper-slide">
+                  <img src="{{ asset('img/brands/NG-IT-logo.png') }}" alt="brand">
+                </div>
+                <div class="swiper-slide">
                   <img src="{{ asset('img/brands/1-Touch.png') }}" alt="brand">
                 </div>
                 <div class="swiper-slide">
