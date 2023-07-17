@@ -24,27 +24,59 @@
               <div class="qrt-item-zoom qrt-cursor-color"><i class="fas fa-expand"></i></div>
               <div class="qrt-work-category"><span>architecture</span></div>
             </a>
-            <a data-fancybox="work" href="{{ asset('img/projects/original-size/02.jpg') }}"></a>
-            <a data-fancybox="work" href="{{ asset('img/projects/original-size/03.jpg') }}"></a>
-            <a data-fancybox="work" href="{{ asset('img/projects/original-size/04.jpg') }}"></a>
             <div class="qrt-work-descr">
-              <h4 class="qrt-cursor-color qrt-white"><a href="{{ route('frontend.single.work') }}">Sunset House</a></h4><a
-                href="{{ route('frontend.single.work') }}" class="qrt-cursor-scale qrt-work-more"><i class="fas fa-arrow-right" style="color: white"></i></a>
+              <h4 class="qrt-cursor-color qrt-white"><a href="#">Sunset House</a></h4><a
+                href="#" class="qrt-cursor-scale qrt-work-more"><i class="fas fa-arrow-right" style="color: white"></i></a>
             </div>
           </div>
         </div>
         <div class="qrt-masonry-grid-item qrt-masonry-grid-item-50 interior">
-          <div class="qrt-work-item"><a data-fancybox="works" href="{{ asset('img/projects/original-size/03.jpg') }}"
+          <div class="qrt-work-item"><a data-fancybox="wor" href="{{ asset('img/projects/thumbnails/02.jpg') }}"
               class="qrt-cursor-scale qrt-work-cover-frame"><img src="{{ asset('img/projects/thumbnails/02.jpg') }}" alt="work cover">
               <div class="qrt-item-zoom qrt-cursor-color"><i class="fas fa-expand"></i></div>
               <div class="qrt-work-category"><span>interior</span></div>
             </a>
-            <a data-fancybox="works" href="{{ asset('img/projects/original-size/04.jpg') }}"></a>
-            <a data-fancybox="works" href="{{ asset('img/projects/original-size/03.jpg') }}"></a>
-            <a data-fancybox="works" href="{{ asset('img/projects/original-size/02.jpg') }}"></a>
+            <a data-fancybox="wor" href="{{ asset('img/projects/dhanmondi/01.jpg') }}"></a>
+            <a data-fancybox="wor" href="{{ asset('img/projects/dhanmondi/02.jpg') }}"></a>
+            <a data-fancybox="wor" href="{{ asset('img/projects/dhanmondi/03.jpg') }}"></a>
+            <a data-fancybox="wor" href="{{ asset('img/projects/dhanmondi/04.jpg') }}"></a>
+            <a data-fancybox="wor" href="{{ asset('img/projects/dhanmondi/05.jpg') }}"></a>
+            <a data-fancybox="wor" href="{{ asset('img/projects/dhanmondi/06.jpg') }}"></a>
+            <a data-fancybox="wor" href="{{ asset('img/projects/dhanmondi/07.jpg') }}"></a>
+            <a data-fancybox="wor" href="{{ asset('img/projects/dhanmondi/08.jpg') }}"></a>
+            <a data-fancybox="wor" href="{{ asset('img/projects/dhanmondi/09.jpg') }}"></a>
+            <a data-fancybox="wor" href="{{ asset('img/projects/dhanmondi/10.jpg') }}"></a>
+            <a data-fancybox="wor" href="{{ asset('img/projects/dhanmondi/11.jpg') }}"></a>
+            <a data-fancybox="wor" href="{{ asset('img/projects/dhanmondi/12.jpg') }}"></a>
+            
             <div class="qrt-work-descr">
-              <h4 class="qrt-cursor-color qrt-white"><a href="{{ route('frontend.single.work') }}">Sunset House</a></h4><a
-                href="{{ route('frontend.single.work') }}" class="qrt-cursor-scale qrt-work-more"><i class="fas fa-arrow-right" style="color: white"></i></a>
+              <h4 class="qrt-cursor-color qrt-white"><a href="#">Dhanmondi Residence</a></h4><a
+                href="#" class="qrt-cursor-scale qrt-work-more"><i class="fas fa-arrow-right" style="color: white"></i></a>
+            </div>
+          </div>
+        </div>       
+        <div class="qrt-masonry-grid-item qrt-masonry-grid-item-50 interior">
+          <div class="qrt-work-item"><a data-fancybox="works" href="{{ asset('img/projects/original-size/03.jpg') }}"
+              class="qrt-cursor-scale qrt-work-cover-frame"><img src="{{ asset('img/projects/thumbnails/03.jpg') }}" alt="work cover">
+              <div class="qrt-item-zoom qrt-cursor-color"><i class="fas fa-expand"></i></div>
+              <div class="qrt-work-category"><span>interior</span></div>
+            </a>
+            <div class="qrt-work-descr">
+              <h4 class="qrt-cursor-color qrt-white"><a href="#">Sunset House</a></h4><a
+                href="#" class="qrt-cursor-scale qrt-work-more"><i class="fas fa-arrow-right" style="color: white"></i></a>
+            </div>
+          </div>
+        </div>       
+        <div class="qrt-masonry-grid-item qrt-masonry-grid-item-50 interior">
+          <div class="qrt-work-item"><a data-fancybox="works" href="{{ asset('img/projects/original-size/03.jpg') }}"
+              class="qrt-cursor-scale qrt-work-cover-frame"><img src="{{ asset('img/projects/thumbnails/04.jpg') }}" alt="work cover">
+              <div class="qrt-item-zoom qrt-cursor-color"><i class="fas fa-expand"></i></div>
+              <div class="qrt-work-category"><span>interior</span></div>
+            </a>
+           
+            <div class="qrt-work-descr">
+              <h4 class="qrt-cursor-color qrt-white"><a href="#">Sunset House</a></h4><a
+                href="#" class="qrt-cursor-scale qrt-work-more"><i class="fas fa-arrow-right" style="color: white"></i></a>
             </div>
           </div>
         </div>       
