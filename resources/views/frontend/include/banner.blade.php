@@ -17,13 +17,7 @@
                 </div>
                 <div class="swiper-slide">
                   <img src="{{ asset('img/brands/Handiz-handicraft.png') }}" alt="brand">
-                </div>
-                <div class="swiper-slide">
-                  <img src="{{ asset('img/brands/NG-IT-logo.png') }}" alt="brand">
-                </div>
-                <div class="swiper-slide">
-                  <img src="{{ asset('img/brands/Polock-Group.png') }}" alt="brand">
-                </div>
+                </div>              
                 <div class="swiper-slide">
                   <img src="{{ asset('img/brands/Polock-Interior-design.png') }}" alt="brand">
                 </div>

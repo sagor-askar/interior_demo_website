@@ -207,6 +207,22 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Jasim Uddin</h4>
+                  <span style="color: white">Sr.Graphics Designer</span>
+                </div>
+                <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-3">
+
+            <div class="qrt-team-member">
+              <a href="#" class="qrt-cursor-scale qrt-team-item qrt-anima-link">
+                <img src="img/team/tm8.jpg" alt="team member">
+              </a>
+              <div class="qrt-team-member-description">
+                <div class="qrt-member-name">
                   <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Kazi Minhajul Islam Najib</h4>
                   <span style="color: white">Project Coordinator</span>
                 </div>
@@ -252,37 +268,7 @@
         <div class="qrt-divider qrt-space-fix"></div>
        
 
-        <div class="row">
-          <div class="col-lg-12">
-
-            <div class="swiper-container qrt-brands-slider" style="overflow: visible">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="img/brands/b1.svg" alt="brand">
-                </div>
-                <div class="swiper-slide">
-                  <img src="img/brands/b2.svg" alt="brand">
-                </div>
-                <div class="swiper-slide">
-                  <img src="img/brands/b3.svg" alt="brand">
-                </div>
-                <div class="swiper-slide">
-                  <img src="img/brands/b4.svg" alt="brand">
-                </div>
-                <div class="swiper-slide">
-                  <img src="img/brands/b5.svg" alt="brand">
-                </div>
-                <div class="swiper-slide">
-                  <img src="img/brands/b6.svg" alt="brand">
-                </div>
-                <div class="swiper-slide">
-                  <img src="img/brands/b7.svg" alt="brand">
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
+        @include('frontend.include.banner')
         @include('frontend.include.footer2')
 
       </div>
