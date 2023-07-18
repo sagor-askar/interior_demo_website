@@ -32,14 +32,14 @@
           class="qrt-btn qrt-btn-md qrt-btn-color qrt-send-request qrt-anima-link qrt-mr-20" style="font-size: 15px;font-weight:normal"><span>Send
             request</span></a>
         <div class="qrt-menu-btn qrt-cursor-color qrt-cursor-scale"><span></span></div>
-        <div class="qrt-search-btn qrt-cursor-color qrt-cursor-scale"><i class="fas fa-search"></i></div>
-        <div class="qrt-info-btn qrt-cursor-color qrt-cursor-scale"><span></span></div>
+        {{-- <div class="qrt-search-btn qrt-cursor-color qrt-cursor-scale"><i class="fas fa-search"></i></div> --}}
+        {{-- <div class="qrt-info-btn qrt-cursor-color qrt-cursor-scale"><span></span></div> --}}
       </div>
-      <div class="qrt-search">
+      {{-- <div class="qrt-search">
         <form>
           <input type="text" placeholder="Enter search query">
         </form>
-      </div>
+      </div> --}}
       <div class="qrt-info" id="qrt-scroll-info">
         <div class="qrt-info-frame">
           <ul class="qrt-table">
