@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Mail\ContactFrom;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -36,5 +37,15 @@ class HomeController extends Controller
     public function contactUsPage()
     {     
         return view('frontend.pages.contact');
+    }
+    public function contactSubmit(Request $request)
+    {
+        $data = [
+            'name'=>$request->name,
+            'email'=>$request->email,
+            'message'=>$request->text,
+        ];
+        Mail::to('1touchbdsoftware@gmail.com')->send(new ContactFrom($data));
+        return "Thank you for contact us";
     }
 }

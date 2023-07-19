@@ -102,7 +102,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::ofPkTPUqdRFOYaGT',
+            '_route' => 'generated::z2Gm09FhRoShnXHu',
           ),
           1 => NULL,
           2 => 
@@ -122,7 +122,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::DdmmQJyfiqhoZr3M',
+            '_route' => 'generated::122aND4euI5v6D6W',
           ),
           1 => NULL,
           2 => 
@@ -229,6 +229,25 @@ app('router')->setCompiledRoutes(
           array (
             'GET' => 0,
             'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/contact-submit' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'frontend.form.submit',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
           ),
           3 => NULL,
           4 => false,
@@ -413,7 +432,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::ofPkTPUqdRFOYaGT' => 
+    'generated::z2Gm09FhRoShnXHu' => 
     array (
       'methods' => 
       array (
@@ -436,7 +455,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::ofPkTPUqdRFOYaGT',
+        'as' => 'generated::z2Gm09FhRoShnXHu',
       ),
       'fallback' => false,
       'defaults' => 
@@ -452,7 +471,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::DdmmQJyfiqhoZr3M' => 
+    'generated::122aND4euI5v6D6W' => 
     array (
       'methods' => 
       array (
@@ -474,7 +493,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::DdmmQJyfiqhoZr3M',
+        'as' => 'generated::122aND4euI5v6D6W',
       ),
       'fallback' => false,
       'defaults' => 
@@ -660,6 +679,42 @@ app('router')->setCompiledRoutes(
         array (
         ),
         'as' => 'frontend.contact',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'frontend.form.submit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'contact-submit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Frontend\\HomeController@contactSubmit',
+        'controller' => 'App\\Http\\Controllers\\Frontend\\HomeController@contactSubmit',
+        'namespace' => 'App\\Http\\Controllers\\Frontend',
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'frontend.form.submit',
       ),
       'fallback' => false,
       'defaults' => 

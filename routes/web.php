@@ -23,6 +23,7 @@ Route::group(['namespace' => 'Frontend'], function () {
     Route::get('/services', 'HomeController@servicePage')->name('frontend.service');
     Route::get('/portfolio', 'HomeController@portfolioPage')->name('frontend.portfolio');
     Route::get('/contact-us', 'HomeController@contactUsPage')->name('frontend.contact');
+    Route::post('/contact-submit', 'HomeController@contactSubmit')->name('frontend.form.submit');
 
     // portfolio pages 
     Route::get('/single-work', 'HomeController@singleWork')->name('frontend.single.work');

@@ -8,6 +8,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="csrf-token" content="{{ csrf_token() }}">
   <!-- color of address bar in mobile browser -->
   <meta name="theme-color" content="#28292C">
   <!-- favicon  -->
@@ -50,6 +51,11 @@
     
     @include('frontend.include.footer')
     <div class="qrt-curtain"></div>
+    {{-- what's app icon start --}}
+      <a href="https://api.whatsapp.com/send?phone=01682180100" class="float" target="_blank">
+          <i class="fab fa-whatsapp my-float"></i>
+      </a>
+     {{-- what's app icon end --}}
     <div id="qrt-dynamic-content" class="qrt-dynamic-content">
       @yield('content')
     </div>

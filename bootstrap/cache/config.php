@@ -521,11 +521,11 @@
       array (
         'transport' => 'smtp',
         'url' => NULL,
-        'host' => 'mail.techservicebd.com',
+        'host' => 'mail.1touchbd.com',
         'port' => '465',
         'encryption' => 'ssl',
-        'username' => 'support@techservicebd.com',
-        'password' => ';og}lcL.pBv!',
+        'username' => 'support@1touchbd.com',
+        'password' => '1oDFK?uN8+F~',
         'timeout' => NULL,
         'local_domain' => NULL,
       ),
@@ -567,7 +567,7 @@
     ),
     'from' => 
     array (
-      'address' => 'support@techservicebd.com',
+      'address' => 'support@1touchbd.com',
       'name' => 'Borhan',
     ),
     'markdown' => 

@@ -67,7 +67,8 @@
           </div>
           <div class="col-lg-6">
 
-            <form id="form" class="qrt-contact-form">
+            <form id="myForm" class="qrt-contact-form" method="POST" action="{{ route('frontend.form.submit') }}">
+              @csrf
               <div class="row">
                 <div class="col-lg-6">
                   <div class="qrt-form-field">
@@ -134,3 +135,27 @@
     </div>
   </div>
 @endsection
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('#myForm').submit(function(event) {
+      event.preventDefault();
+      var formData = $(this).serialize();
+      $.ajax({
+        headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                  },
+        type: 'POST',
+        url: $(this).attr('action'),
+        data: formData,
+        success: function(response) {
+          alert(response);
+        },
+        error: function(xhr, status, error) {
+          // Handle errors (if any)
+          console.error(error);
+        }
+      });
+    });
+  });
+</script>
