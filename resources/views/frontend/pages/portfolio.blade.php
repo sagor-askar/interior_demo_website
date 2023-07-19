@@ -10,10 +10,10 @@
           class="qrt-work-category qrt-current qrt-filter-icon qrt-cursor-color qrt-cursor-scale"><i
             class="fas fa-filter"></i>All Categories</a>
         <a href="#" data-filter=".architecture"
-          class="qrt-work-category qrt-cursor-color qrt-cursor-scale">Architecture</a>
-        <a href="#" data-filter=".interior" class="qrt-work-category qrt-cursor-color qrt-cursor-scale">Interior
-          Design</a>
-        <a href="#" data-filter=".repair" class="qrt-work-category qrt-cursor-color qrt-cursor-scale">Repair</a>
+          class="qrt-work-category qrt-cursor-color qrt-cursor-scale">Residential Projects</a>
+        <a href="#" data-filter=".interior" class="qrt-work-category qrt-cursor-color qrt-cursor-scale">Commercial Projects</a>
+        <a href="#" data-filter=".repair" class="qrt-work-category qrt-cursor-color qrt-cursor-scale">Architectural Consultancy</a>
+        <a href="#" data-filter=".repair" class="qrt-work-category qrt-cursor-color qrt-cursor-scale">Under Construction</a>
       </div>
 
       <div class="qrt-masonry-grid qrt-mb-40">

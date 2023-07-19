@@ -1,6 +1,6 @@
 <div class="row">
           <div class="col-lg-12">
-
+            <h3 class="qrt-mb-40 qrt-text">Sister Concern</h3>
             <div class="swiper-container qrt-brands-slider" style="overflow: visible">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
