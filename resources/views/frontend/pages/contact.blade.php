@@ -28,7 +28,6 @@
               <!-- title -->
               <h4 class="mb-20">Phone number</h4>
               <!-- description -->
-              <a href="#." data-no-swup><span>+(880) 171-3288600</span></a><br>
               <a href="tel:+9 3(046) 482 88 34" data-no-swup><span>+(880) 171-3288611</span></a>
             </div>
 

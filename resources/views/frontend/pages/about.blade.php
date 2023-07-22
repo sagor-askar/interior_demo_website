@@ -143,8 +143,8 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Latiful Kabir Sujon</h4>
-                  <span style="color: white">Senior Architect</span>
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Head of Department</h4>
+                  {{-- <span style="color: white">Senior Architect</span> --}}
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>
@@ -159,8 +159,8 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Sarker Aliad Polok</h4>
-                  <span style="color: white">Associate Architect</span>
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Designer & Developer</h4>
+                  {{-- <span style="color: white">Associate Architect</span> --}}
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>
@@ -175,8 +175,8 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Md.Abul Bashar</h4>
-                  <span style="color: white">Civil Engineer</span>
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Head of Construction</h4>
+                  {{-- <span style="color: white">Civil Engineer</span> --}}
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>
@@ -191,8 +191,8 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Rony Roy</h4>
-                  <span style="color: white">Executive-Logistics</span>
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Head of Logistics</h4>
+                  {{-- <span style="color: white">Executive-Logistics</span> --}}
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>
@@ -207,8 +207,8 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Jasim Uddin</h4>
-                  <span style="color: white">Sr.Graphics Designer</span>
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Sr. Executive-Logistics</h4>
+                  {{-- <span style="color: white">Sr.Graphics Designer</span> --}}
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>
@@ -223,8 +223,8 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Kazi Minhajul Islam Najib</h4>
-                  <span style="color: white">Project Coordinator</span>
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Project Coordinator</h4>
+                  {{-- <span style="color: white">Project Coordinator</span> --}}
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>
@@ -239,8 +239,8 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Rifat Imtiaz</h4>
-                  <span style="color: white">Senior Manager(HR & Admin)</span>
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">HR & Admin</h4>
+                  {{-- <span style="color: white">Senior Manager(HR & Admin)</span> --}}
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>
@@ -255,8 +255,8 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Faishal Ahammad</h4>
-                  <span style="color: white">Executive(Accounts & HR)</span>
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Head of Accounts</h4>
+                  {{-- <span style="color: white">Executive(Accounts & HR)</span> --}}
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>

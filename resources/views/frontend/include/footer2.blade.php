@@ -218,7 +218,6 @@
                         <i class="fas fa-phone"></i>
                         <div class="cta-text">
                             <h4>Call us</h4>
-                            <span>+(880) 171-3288600</span>
                             <span>+(880) 171-3288611</span>
                                 
                         </div>

@@ -52,7 +52,7 @@
     @include('frontend.include.footer')
     <div class="qrt-curtain"></div>
     {{-- what's app icon start --}}
-      <a href="https://api.whatsapp.com/send?phone=01682180100" class="float" target="_blank">
+      <a href="https://api.whatsapp.com/send?phone=01713288611" class="float" target="_blank">
           <i class="fab fa-whatsapp my-float"></i>
       </a>
      {{-- what's app icon end --}}

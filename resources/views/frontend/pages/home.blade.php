@@ -189,74 +189,62 @@
 
             <div class="row">
               <div class="col-lg-6">
-
                 <h3 class="qrt-mb-40 qrt-text">Our Service</h3>
-
                 <div class="qrt-timeline qrt-mb-40">
-
                   <div class="qrt-timeline-item">
                     <div class="qrt-timeline-mark"></div>
                     <div class="qrt-a qrt-timeline-content">
                       <div class="qrt-card-header">
-                        <div class="qrt-date qrt-mb-20">Interior Architecture</div>
-                        <h4 class="qrt-mb-5">University of toronto</h4>
-                        
+                        <div class="qrt-date qrt-mb-20">Home Interior</div>                        
                       </div>
-                      
-                     
                     </div>
                   </div>
-
                   <div class="qrt-timeline-item">
                     <div class="qrt-timeline-mark"></div>
                     <div class="qrt-a qrt-timeline-content">
                       <div class="qrt-card-header">
-                        <div class="qrt-date qrt-mb-20">Industry Buildings</div>
-                        <h4 class="qrt-mb-5">3D visualization courses</h4>
-                       
+                        <div class="qrt-date qrt-mb-20">Home Automation</div>                       
                       </div>
-                      
-                      
                     </div>
                   </div>
-
+                  <div class="qrt-timeline-item">
+                    <div class="qrt-timeline-mark"></div>
+                    <div class="qrt-a qrt-timeline-content">
+                      <div class="qrt-card-header">
+                        <div class="qrt-date qrt-mb-20">Commercial Interior</div>                       
+                      </div>
+                    </div>
+                  </div>
                 </div>
-
               </div>
               <div class="col-lg-6">
-
                 <h3 class="qrt-mb-40" style="padding: 8px"></h3>
-
                 <div class="qrt-timeline qrt-mb-40">
-
                   <div class="qrt-timeline-item">
                     <div class="qrt-timeline-mark"></div>
                     <div class="qrt-a qrt-timeline-content">
                       <div class="qrt-card-header">
-                        <div class="qrt-date qrt-mb-20">Landscape Design</div>
-                        <h4 class="qrt-mb-5">Envato market</h4>
-                        
-                      </div>                    
-                     
-
+                        <div class="qrt-date qrt-mb-20">Office Interior</div>                        
+                      </div>                 
                     </div>
                   </div>
                   <div class="qrt-timeline-item">
                     <div class="qrt-timeline-mark"></div>
                     <div class="qrt-a qrt-timeline-content">
                       <div class="qrt-card-header">
-                        <div class="qrt-date qrt-mb-20">Commercial Buildings</div>
-                        <h4 class="qrt-mb-5">Themeforest</h4>
-                        
-                      </div>
-                      
-                      
-
+                        <div class="qrt-date qrt-mb-20">Landscape Design</div>                    
+                      </div>                 
                     </div>
-                  </div>                
-
+                  </div>             
+                  <div class="qrt-timeline-item">
+                    <div class="qrt-timeline-mark"></div>
+                    <div class="qrt-a qrt-timeline-content">
+                      <div class="qrt-card-header">
+                        <div class="qrt-date qrt-mb-20">Architect & Construction</div>                    
+                      </div>                 
+                    </div>
+                  </div>             
                 </div>
-
               </div>
             </div>
             <div class="qrt-divider qrt-space-fix"></div>
