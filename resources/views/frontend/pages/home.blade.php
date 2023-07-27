@@ -266,8 +266,8 @@
                             <div class="qrt-item-zoom qrt-cursor-color"><i class="fas fa-expand"></i></div>
                           </a>
                           <div class="qrt-work-descr">
-                            <h4 class="qrt-cursor-color qrt-white" style="font-size: 17px;font-weight: normal;"><a href="{{ route('frontend.single.work') }}">Project title</a></h4>
-                            <a href="{{ route('frontend.single.work') }}" class="qrt-cursor-scale qrt-work-more"><i class="fas fa-arrow-right"></i></a>
+                            <h4 class="qrt-cursor-color qrt-white" style="font-size: 17px;font-weight: normal;"><a href="{{ route('frontend.portfolio') }}">Jame Mosque at Barhmanbaria</a></h4>
+                            <a href="{{ route('frontend.portfolio') }}" class="qrt-cursor-scale qrt-work-more"><i class="fas fa-arrow-right"></i></a>
                           </div>
                         </div>
   
@@ -275,31 +275,17 @@
                       <div class="swiper-slide">
   
                         <div class="qrt-work-item qrt-work-open">
-                          <a data-fancybox="works" href="{{ asset('img/projects/original-size/02.jpg') }}" class="qrt-cursor-scale qrt-work-cover-frame">
+                          <a data-fancybox="work" href="{{ asset('img/projects/original-size/02.jpg') }}" class="qrt-cursor-scale qrt-work-cover-frame">
                             <img src="{{ asset('img/projects/thumbnails/02.jpg') }}" alt="work cover">
                             <div class="qrt-item-zoom qrt-cursor-color"><i class="fas fa-expand"></i></div>
                           </a>
                           <div class="qrt-work-descr">
-                            <h4 class="qrt-cursor-color qrt-white" style="font-size: 17px;font-weight: normal;"><a href="{{ route('frontend.single.work') }}">Project title</a></h4>
-                            <a href="{{ route('frontend.single.work') }}" class="qrt-cursor-scale qrt-work-more"><i class="fas fa-arrow-right"></i></a>
+                            <h4 class="qrt-cursor-color qrt-white" style="font-size: 17px;font-weight: normal;"><a href="{{ route('frontend.portfolio') }}">Dhanmondi Residence</a></h4>
+                            <a href="{{ route('frontend.portfolio') }}" class="qrt-cursor-scale qrt-work-more"><i class="fas fa-arrow-right"></i></a>
                           </div>
                         </div>
   
-                      </div>
-                      <div class="swiper-slide">
-  
-                        <div class="qrt-work-item qrt-work-open">
-                          <a data-fancybox="works" href="{{ asset('img/projects/original-size/03.jpg') }}" class="qrt-cursor-scale qrt-work-cover-frame">
-                            <img src="{{ asset('img/projects/thumbnails/02.jpg') }}" alt="work cover">
-                            <div class="qrt-item-zoom qrt-cursor-color"><i class="fas fa-expand"></i></div>
-                          </a>
-                          <div class="qrt-work-descr">
-                            <h4 class="qrt-cursor-color qrt-white" style="font-size: 17px;font-weight: normal;"><a href="{{ route('frontend.single.work') }}">Project title</a></h4>
-                            <a href="{{ route('frontend.single.work') }}" class="qrt-cursor-scale qrt-work-more"><i class="fas fa-arrow-right"></i></a>
-                          </div>
-                        </div>
-  
-                      </div>
+                      </div>                     
                     </div>
                   </div>
                 </div>

@@ -50,7 +50,7 @@
           <div class="qrt-divider"></div>
           <div class="qrt-social-links">
             <div class="qrt-social-links">
-              <h5 class="qrt-mb-40">Visit 1touch</h5>
+              <h5 class="qrt-mb-40">1touch</h5>
               <a href="https://1touchbd.com" class="qrt-btn qrt-btn-sm qrt-btn-color" target="_blank"
             ><span>Visit 1touch</span></a>
             </div>

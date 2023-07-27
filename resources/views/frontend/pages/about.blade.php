@@ -46,21 +46,12 @@
           </div>
           <div class="col-lg-6">
 
-            <div class="qrt-post-frame qrt-popular">
+            <div class="qrt-post-frame">
               <a href="#" class="qrt-post-thumb qrt-cursor-scale qrt-anima-link">
-                <img src="img/blog/1.jpg" alt="thumbnail">
-                <div class="qrt-post-date">
-                  <span><i class="far fa-user"></i>Emma Newman</span>
-                  <span><i class="far fa-clock"></i> 22.08.2020</span>
-                </div>
+                <img src="{{ asset('img/blog/1.jpg') }}" alt="thumbnail">
+                
               </a>
-              <div class="qrt-post-descr">
-                <div>
-                  {{-- <h4 class="qrt-cursor-color qrt-post-title" style="font-size: 19px;font-weight: 500;"><a href="#" class="qrt-anima-link">Winning An Architecture Competition</a></h4>
-                  <div class="qrt-port-short-text">Back in 2015, Bee Breeders launched the Krakow Oxygen Home architecture competition which tasked participants to create designs for a lung cancer care center in the heart of one of the
-                    most-polluted cities in the world.</div> --}}
-                </div>
-              </div>
+              
             </div>
 
           </div>
@@ -68,19 +59,10 @@
 
             <div class="qrt-post-frame">
               <a href="#" class="qrt-post-thumb qrt-cursor-scale qrt-anima-link">
-                <img src="img/blog/2.jpg" alt="thumbnail">
-                <div class="qrt-post-date">
-                  <span><i class="far fa-user"></i>Emma Newman</span>
-                  <span><i class="far fa-clock"></i> 22.08.2020</span>
-                </div>
+                <img src="{{ asset('img/blog/2.jpg') }}" alt="thumbnail">
+                
               </a>
-              <div class="qrt-post-descr">
-                <div>
-                  {{-- <h4 class="qrt-cursor-color qrt-post-title" style="font-size: 19px;font-weight: 500;"><a href="#" class="qrt-anima-link">A Proper Desk for an Architect</a></h4>
-                  <div class="qrt-port-short-text">Back in 2015, Bee Breeders launched the Krakow Oxygen Home architecture competition which tasked participants to create designs for a lung cancer care center in the heart of one of the
-                    most-polluted cities in the world.</div> --}}
-                </div>
-              </div>
+            
             </div>
 
           </div>
@@ -88,39 +70,42 @@
 
             <div class="qrt-post-frame">
               <a href="#" class="qrt-post-thumb qrt-cursor-scale qrt-anima-link">
-                <img src="img/blog/3.jpg" alt="thumbnail">
-                <div class="qrt-post-date">
-                  <span><i class="far fa-user"></i>Emma Newman</span>
-                  <span><i class="far fa-clock"></i> 22.08.2020</span>
-                </div>
+                <img src="{{ asset('img/blog/4.jpg') }}" alt="thumbnail">
+                
               </a>
-              <div class="qrt-post-descr">
-                <div>
-                  {{-- <h4 class="qrt-cursor-color qrt-post-title" style="font-size: 19px;font-weight: 500;"><a href="#" class="qrt-anima-link">Model Making In Architecture</a></h4>
-                  <div class="qrt-port-short-text">The importance of model making in architecture could be thought to have reduced in recent years. With the introduction of new and innovative architecture design technology, is there still a place
-                    for model making in architecture? Stanton Williams, director at Stirling Prize-winning practice, Gavin Henderson, believes that it’s more important than ever.</div> --}}
-                </div>
-              </div>
+            
             </div>
 
           </div>
           <div class="col-lg-6">
 
-            <div class="qrt-post-frame qrt-popular">
+            <div class="qrt-post-frame">
               <a href="#" class="qrt-post-thumb qrt-cursor-scale qrt-anima-link">
-                <img src="img/blog/4.jpg" alt="thumbnail">
-                <div class="qrt-post-date">
-                  <span><i class="far fa-user"></i>Emma Newman</span>
-                  <span><i class="far fa-clock"></i> 22.08.2020</span>
-                </div>
+                <img src="{{ asset('img/blog/3.jpg') }}" alt="thumbnail">
+                
               </a>
-              <div class="qrt-post-descr">
-                <div>
-                  {{-- <h4 class="qrt-cursor-color qrt-post-title" style="font-size: 19px;font-weight: 500;"><a href="#" class="qrt-anima-link">Can Skyscrapers Be Sustainable</a></h4>
-                  <div class="qrt-port-short-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, id, reprehenderit earum quidem error hic deserunt asperiores suscipit. Magni doloribus, ab cumque modi quidem doloremque nostrum quam
-                    tempora, corporis explicabo nesciunt accusamus ad architecto sint voluptatibus tenetur ipsa hic eius.</div> --}}
-                </div>
-              </div>
+             
+            </div>
+
+          </div>
+          <div class="col-lg-6">
+
+            <div class="qrt-post-frame">
+              <a href="#" class="qrt-post-thumb qrt-cursor-scale qrt-anima-link">
+                <img src="{{ asset('img/blog/5.jpg') }}" alt="thumbnail">
+                
+              </a>
+             
+            </div>
+
+          </div>
+          <div class="col-lg-6">
+
+            <div class="qrt-post-frame">
+              <a href="#" class="qrt-post-thumb qrt-cursor-scale qrt-anima-link">
+                <img src="{{ asset('img/blog/6.jpg') }}" alt="thumbnail">
+                
+              </a>              
             </div>
 
           </div>
@@ -143,8 +128,8 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Head of Department</h4>
-                  {{-- <span style="color: white">Senior Architect</span> --}}
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Latiful Kabir Sujon</h4>
+                  <span style="color: white">Head of Department</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>
@@ -159,8 +144,8 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Designer & Developer</h4>
-                  {{-- <span style="color: white">Associate Architect</span> --}}
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Sarker Aliad Polok</h4>
+                  <span style="color: white">Designer & Developer</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>
@@ -175,8 +160,8 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Head of Construction</h4>
-                  {{-- <span style="color: white">Civil Engineer</span> --}}
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Md.Abul Bashar</h4>
+                  <span style="color: white">Head-Construction</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>
@@ -191,8 +176,8 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Head of Logistics</h4>
-                  {{-- <span style="color: white">Executive-Logistics</span> --}}
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Rony Roy</h4>
+                  <span style="color: white">Head-Logistics</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>
@@ -207,8 +192,8 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Sr. Executive-Logistics</h4>
-                  {{-- <span style="color: white">Sr.Graphics Designer</span> --}}
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Jasim Uddin</h4>
+                  <span style="color: white">Sr.Graphics Designer</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>
@@ -223,8 +208,8 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Project Coordinator</h4>
-                  {{-- <span style="color: white">Project Coordinator</span> --}}
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Kazi Minhajul Islam Najib</h4>
+                  <span style="color: white">Project Coordinator</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>
@@ -239,8 +224,8 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">HR & Admin</h4>
-                  {{-- <span style="color: white">Senior Manager(HR & Admin)</span> --}}
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Rifat Imtiaz</h4>
+                  <span style="color: white">Head-HR & Admin</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>
@@ -255,8 +240,8 @@
               </a>
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
-                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Head of Accounts</h4>
-                  {{-- <span style="color: white">Executive(Accounts & HR)</span> --}}
+                  <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Faishal Ahammad</h4>
+                  <span style="color: white">Head-Accounts</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>
