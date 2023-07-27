@@ -45,13 +45,13 @@
       <div class="qrt-info" id="qrt-scroll-info">
         <div class="qrt-info-frame">
           <div class="qrt-testimonial-text">
-            Thank you for capturing our essence and translating it in such a beautiful and functional way. Great work done by Polock Interior Design Limited.
+            1 Touch is a company specialized in home & commercial automation, AI based products, advanced surveillance system & advanced technical solutions. It is a concern of Polock Group, established in 1999.
         </div>
           <div class="qrt-divider"></div>
           <div class="qrt-social-links">
             <div class="qrt-social-links">
-              <h5 class="qrt-mb-40">1touch</h5>
-              <a href="https://1touchbd.com" class="qrt-btn qrt-btn-sm qrt-btn-color" target="_blank"
+              <img src="{{ asset('img/1touch/logo.png') }}" alt="1touchpost">
+              <a href="https://1touchbd.com" class="qrt-btn qrt-btn-sm qrt-btn-color" target="_blank" style="background-color: #1F93D1; color:#F5D0A2"
             ><span>Visit 1touch</span></a>
             </div>
           </div>
@@ -61,17 +61,12 @@
             <div class="qrt-instagram-frame">
               <a href="#." class="qrt-instagram-item qrt-cursor-scale">
                 <div class="qrt-instagram-image-frame">
-                  <img src="{{ asset('img/1touch/bsm.jpg') }}" alt="1touchpost">
-                </div>
-              </a>
-              <a href="#." class="qrt-instagram-item qrt-cursor-scale">
-                <div class="qrt-instagram-image-frame">
                   <img src="{{ asset('img/1touch/edu_thumb.png') }}" alt="1touchpost">
                 </div>
               </a>
               <a href="#." class="qrt-instagram-item qrt-cursor-scale">
                 <div class="qrt-instagram-image-frame">
-                  <img src="{{ asset('img/1touch/industrial_automation.jpg') }}" alt="1touchpost">
+                  <img src="{{ asset('img/1touch/tab-video-bg.jpg') }}" alt="1touchpost">
                 </div>
               </a>
               <a href="#." class="qrt-instagram-item qrt-cursor-scale">
@@ -80,8 +75,13 @@
                 </div>
               </a>
               <a href="#." class="qrt-instagram-item qrt-cursor-scale">
+                <div class="qrt-instagram-image-frame">                  
+                  <img src="{{ asset('img/1touch/industrial_automation.jpg') }}" alt="1touchpost">
+                </div>
+              </a>
+              <a href="#." class="qrt-instagram-item qrt-cursor-scale">
                 <div class="qrt-instagram-image-frame">
-                  <img src="{{ asset('img/1touch/tab-video-bg.jpg') }}" alt="1touchpost">
+                  <img src="{{ asset('img/1touch/bsm.jpg') }}" alt="1touchpost">
                 </div>
               </a>
             </div>

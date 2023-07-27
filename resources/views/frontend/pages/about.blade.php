@@ -145,7 +145,7 @@
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
                   <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Sarker Aliad Polok</h4>
-                  <span style="color: white">Designer & Developer</span>
+                  <span style="color: white">Head of Design & Development</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>
@@ -161,7 +161,7 @@
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
                   <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Md.Abul Bashar</h4>
-                  <span style="color: white">Head-Construction</span>
+                  <span style="color: white">Head of Construction</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>
@@ -177,7 +177,7 @@
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
                   <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Rony Roy</h4>
-                  <span style="color: white">Head-Logistics</span>
+                  <span style="color: white">Head of Logistics</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>
@@ -225,7 +225,7 @@
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
                   <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Rifat Imtiaz</h4>
-                  <span style="color: white">Head-HR & Admin</span>
+                  <span style="color: white">Head of HR & Admin</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>
@@ -241,7 +241,7 @@
               <div class="qrt-team-member-description">
                 <div class="qrt-member-name">
                   <h4 class="qrt-white qrt-qrt-mb-5" style="font-size: 17px;font-weight:normal">Faishal Ahammad</h4>
-                  <span style="color: white">Head-Accounts</span>
+                  <span style="color: white">Head of Accounts</span>
                 </div>
                 <a href="#" class="qrt-cursor-scale qrt-member-more qrt-anima-link"><i class="fas fa-arrow-right arrowClass"></i></a>
               </div>

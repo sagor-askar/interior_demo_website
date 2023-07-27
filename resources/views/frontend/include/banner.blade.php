@@ -4,31 +4,31 @@
             <div class="swiper-container qrt-brands-slider" style="overflow: visible">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="{{ asset('img/brands/Polock-Group.png') }}" alt="brand">
+                  <img src="{{ asset('img/brands/1.jpg') }}" alt="brand">
                 </div>
                 <div class="swiper-slide">
-                  <img src="{{ asset('img/brands/NG-IT-logo.png') }}" alt="brand">
+                  <img src="{{ asset('img/brands/2.jpg') }}" alt="brand">
                 </div>
                 <div class="swiper-slide">
-                  <img src="{{ asset('img/brands/1-Touch.png') }}" alt="brand">
+                  <img src="{{ asset('img/brands/3.jpg') }}" alt="brand">
                 </div>
                 <div class="swiper-slide">
-                  <img src="{{ asset('img/brands/Dry-express.png') }}" alt="brand">
+                  <img src="{{ asset('img/brands/4.jpg') }}" alt="brand">
                 </div>
                 <div class="swiper-slide">
-                  <img src="{{ asset('img/brands/GNB-Tv.png') }}" alt="brand">
+                  <img src="{{ asset('img/brands/5.jpg') }}" alt="brand">
                 </div>
                 <div class="swiper-slide">
-                  <img src="{{ asset('img/brands/Golden-Poly.png') }}" alt="brand">
+                  <img src="{{ asset('img/brands/6.jpg') }}" alt="brand">
                 </div>
                 <div class="swiper-slide">
-                  <img src="{{ asset('img/brands/Handiz-handicraft.png') }}" alt="brand">
+                  <img src="{{ asset('img/brands/7.jpg') }}" alt="brand">
                 </div>              
                 <div class="swiper-slide">
-                  <img src="{{ asset('img/brands/Polock-Interior-design.png') }}" alt="brand">
+                  <img src="{{ asset('img/brands/8.jpg') }}" alt="brand">
                 </div>
                 <div class="swiper-slide">
-                  <img src="{{ asset('img/brands/Technolt.png') }}" alt="brand">
+                  <img src="{{ asset('img/brands/9.jpg') }}" alt="brand">
                 </div>               
               </div>
             </div>

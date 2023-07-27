@@ -80,14 +80,19 @@
           </div>
         </div>       
         <div class="qrt-masonry-grid-item qrt-masonry-grid-item-50 interior">
-          <div class="qrt-work-item"><a data-fancybox="works" href="{{ asset('img/projects/original-size/03.jpg') }}"
+          <div class="qrt-work-item"><a data-fancybox="wo" href="{{ asset('img/projects/thumbnails/04.jpg') }}"
               class="qrt-cursor-scale qrt-work-cover-frame"><img src="{{ asset('img/projects/thumbnails/04.jpg') }}" alt="work cover">
               <div class="qrt-item-zoom qrt-cursor-color"><i class="fas fa-expand"></i></div>
               <div class="qrt-work-category"><span>interior</span></div>
             </a>
-           
+            <a data-fancybox="wo" href="{{ asset('img/projects/baridhara/1.jpg') }}"></a>
+            <a data-fancybox="wo" href="{{ asset('img/projects/baridhara/2.jpg') }}"></a>
+            <a data-fancybox="wo" href="{{ asset('img/projects/baridhara/3.jpg') }}"></a>
+            <a data-fancybox="wo" href="{{ asset('img/projects/baridhara/4.jpg') }}"></a>
+            <a data-fancybox="wo" href="{{ asset('img/projects/baridhara/5.jpg') }}"></a>
+            <a data-fancybox="wo" href="{{ asset('img/projects/baridhara/6.jpg') }}"></a>
             <div class="qrt-work-descr">
-              <h4 class="qrt-cursor-color qrt-white"><a href="#">Sunset House</a></h4><a
+              <h4 class="qrt-cursor-color qrt-white"><a href="#">Baridhara Residence</a></h4><a
                 href="#" class="qrt-cursor-scale qrt-work-more"><i class="fas fa-arrow-right" style="color: white"></i></a>
             </div>
           </div>
