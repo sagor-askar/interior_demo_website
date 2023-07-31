@@ -144,7 +144,9 @@
 
               <div class="qrt-member-about">
                 <h3 class="qrt-mb-5" style="font-size: 25px;text-transform: uppercase;color: #000;font-weight: 100;padding: 0px 0px 15px 0px;">WE ARE Polock Interior design</h3>
-                <div class="qrt-mb-20">Polock Interior Design Limited is one of the design intensive architecture, interior design, engineering, and urban planning architecture firms in Bangladesh. We have completed more than 300 projects in Dhaka city and around. We are a growing bunch of young professionals committedly working in an effort to make our mark on Bangladesh map through iconic building footprints, targeting excellence, innovation, and sustainability in our designs.Our portfolio contains some of the diverse range of architectural practices from vibrant interior design with customized furniture, luxurious vacation house, inspiring learning centers, devotional mosques to cutting-edge factory buildings. Our design values are modern: universally rational with thriving spatial relationships, honest expression of materials, clean lines, planes & volumes while also being reflective of the characters of our clients</div>                
+                <div class="qrt-mb-20">
+                    <p>Polock Interior Design Ltd. has earned widespread recognition as Dhaka's leading design firm, proudly serving since 1999. Our core strength lies in our seamless integration as a team, from top-level management to our studio and project teams. We are dedicated to providing effective services to our clients wherever they require our expertise. Embracing a unified spirit, we save time, reduce costs, and deliver innovative solutions.</p>
+                 </div>                
               </div>
 
             </div>

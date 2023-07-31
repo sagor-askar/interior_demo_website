@@ -27,11 +27,10 @@
           </div>
           <div class="col-lg-8 qrt-mb-25">
 
-            <p>We have intentionally never developed a stylistic formula for our work, which is why our projects never quite look or feel the same. Each of our spaces is the result of our ability to listen, which has turned our designs and
-              buildings into personal reflections of our clients’ personalities and values, which we co-construct through research, workshops and surveys.</p>
+            <p>At Polock Interior Design, creativity, and contemporary knowledge flow effortlessly into every project and location we undertake. Boasting a portfolio of over 10,000 active clients, we operate across the entire country. Our clientele is wonderfully diverse, encompassing both large and small enterprises, private and public institutions, as well as for-profit and nonprofit organizations.</p>
 
-            <p>In our studio, every project is an open ended enquiry, helping people to challenge their existing state and work towards an alternative, desired one. We provide guidance, expertise and experience across all phases in the
-              architectural process, ranging from thinking, to designing, building, and ultimately finding the right way to communicate the results.</p>
+            <p>Our approach is centered around building strong client relationships, where their needs, expectations, and strategic objectives serve as the guiding context for each project we embark on together. Regardless of their scale or location, we are fully equipped to meet our client's demands with utmost professionalism.</p>
+            <p>For us, design is a skillful action that enhances simple goals, ideas, and anticipations to a better and more fulfilling reality. We have a strong conviction that careful design can help us create environments and experiences that motivate, attract, and inspire.</p>
 
           </div>
         </div>
