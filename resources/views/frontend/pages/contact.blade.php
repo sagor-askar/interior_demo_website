@@ -28,7 +28,7 @@
               <!-- title -->
               <h4 class="mb-20">Phone number</h4>
               <!-- description -->
-              <a href="tel:+9 3(046) 482 88 34" data-no-swup><span>+(880) 171-3288611</span></a>
+              <a href="tel:+9 3(046) 482 88 34" data-no-swup><span>+(88) 01713-288611</span></a>
             </div>
 
           </div>
@@ -39,7 +39,7 @@
               <img class="mb-20" src="img/icons/icon-5.svg" alt="icon">
               <!-- title -->
               <h4 class="mb-20">Email</h4>
-              <a href="mailto:info@polockgroup.com" data-no-swup><span>info@polockgroup.com</span></a><br>              
+              <a href="mailto:info@polockgroup.com" data-no-swup><span>info@polockinterior.com</span></a><br>              
             </div>
 
           </div>

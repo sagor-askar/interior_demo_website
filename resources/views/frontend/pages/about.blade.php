@@ -41,7 +41,9 @@
           <div class="col-lg-12">
 
             <h3 class="qrt-mb-40 qrt-text">achievement</h3>
-
+            <p>
+              Polock Interior Design Limited from Bangladesh In Recognition Of Outstanding Commitment to Quality and Excellence, which merits CENTURY INTERNATIONAL GOLD QUALITY ERA AWARD, EUROPEAN AWARDS FOR THE BEST PRACTICES 2013, BID BUSINESS INITIATIVE DIRECTIONS AWARD, WORLD CONFEDERATION OF BUSINESSES 2022 in the realm of customer satisfaction, leadership, strategic planning, and bench marketing, as established in the QC100 TQM system.
+            </p>
           </div>
           <div class="col-lg-6">
 
@@ -262,3 +264,4 @@
   </div>
 
 @endsection
+

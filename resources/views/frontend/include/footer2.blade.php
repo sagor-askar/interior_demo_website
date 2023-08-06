@@ -218,7 +218,7 @@
                         <i class="fas fa-phone"></i>
                         <div class="cta-text">
                             <h4>Call us</h4>
-                            <span>+(880) 171-3288611</span>
+                            <span>+(88) 01713-288611</span>
                                 
                         </div>
                     </div>
@@ -228,7 +228,7 @@
                         <i class="far fa-envelope-open"></i>
                         <div class="cta-text">
                             <h4>Mail us</h4>
-                            <span>info@polockgroup.com</span>
+                            <span>info@polockinterior.com</span>
                         </div>
                     </div>
                 </div>

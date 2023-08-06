@@ -1925,9 +1925,10 @@ content
     position: relative;
     padding-bottom: 105%;
     -webkit-filter: brightness(95%);
-            filter: brightness(95%);
+            /* filter: brightness(95%);
     -webkit-transition: 0.4s ease-in-out;
-    transition: 0.4s ease-in-out; }
+    transition: 0.4s ease-in-out;  */
+  }
     .qrt-team-member .qrt-team-item img {
       position: absolute;
       top: 0;
@@ -3153,7 +3154,11 @@ plugins customization
       width: 100%;
       -webkit-transition: 0.4s ease-in-out;
       transition: 0.4s ease-in-out; }
-
+@media (max-width: 1400px){
+  .about-polock {
+    font-size: 18px !important;
+  }
+}
 @media (max-width: 1200px) {
   .qrt-map-frame {
     background-color: #28292c; }

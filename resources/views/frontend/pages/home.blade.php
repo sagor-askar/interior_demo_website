@@ -143,9 +143,10 @@
             <div class="col-lg-6 col-md-12 align-self-center">
 
               <div class="qrt-member-about">
-                <h3 class="qrt-mb-5" style="font-size: 25px;text-transform: uppercase;color: #000;font-weight: 100;padding: 0px 0px 15px 0px;">WE ARE Polock Interior design</h3>
-                <div class="qrt-mb-20">
-                    <p>Polock Interior Design Ltd. has earned widespread recognition as Dhaka's leading design firm, proudly serving since 1999. Our core strength lies in our seamless integration as a team, from top-level management to our studio and project teams. We are dedicated to providing effective services to our clients wherever they require our expertise. Embracing a unified spirit, we save time, reduce costs, and deliver innovative solutions.</p>
+                <h3 class="qrt-mb-5 about-polock" media="" style="font-size: 25px;text-transform: uppercase;color: #000;font-weight: 100;padding: 0px 0px 15px 0px;">WE ARE Polock Interior design</h3>
+                <div class="qrt-mb-20" style="">
+                    <p style="text-align: justify;">Polock Interior Design Ltd. has earned widespread recognition as Dhaka's leading design firm, proudly serving since 1999. Our core strength lies in our seamless integration as a team, from top-level management to our studio and project teams. We are dedicated to providing effective services to our clients wherever they require our expertise. Embracing a unified spirit, we save time, reduce costs, and deliver innovative solutions.</p>
+                    {{-- <p style="text-align: justify;">Polock Interior Design Limited from Bangladesh In Recognition Of Outstanding Commitment to Quality and Excellence, which merits CENTURY INTERNATIONAL GOLD QUALITY ERA AWARD, EUROPEAN AWARDS FOR THE BEST PRACTICES 2013, BID BUSINESS INITIATIVE DIRECTIONS AWARD, WORLD CONFEDERATION OF BUSINESSES 2022 in the realm of customer satisfaction, leadership, strategic planning, and bench marketing, as established in the QC100 TQM system.</p> --}}
                  </div>                
               </div>
 
@@ -172,15 +173,15 @@
                       <h3 class="text">Reward</h3>
                     </div>
                     <div class="item">
-                      <h1 class="count" data-number="190" >190</h1>
+                      <h1 class="count" data-number="24" >24</h1>
                       <h3 class="text">year+ Eexperience</h3>
                     </div>
                     <div class="item">
-                      <h1 class="count" data-number="560" >560</h1>
+                      <h1 class="count" data-number="3560" >3560</h1>
                       <h3 class="text">project completed</h3>
                     </div>
                     <div class="item">
-                      <h1 class="count" data-number="300" >300</h1>
+                      <h1 class="count" data-number="750" >750</h1>
                       <h3 class="text">happy clients</h3>
                     </div>
                   
@@ -268,7 +269,7 @@
                             <div class="qrt-item-zoom qrt-cursor-color"><i class="fas fa-expand"></i></div>
                           </a>
                           <div class="qrt-work-descr">
-                            <h4 class="qrt-cursor-color qrt-white" style="font-size: 17px;font-weight: normal;"><a href="{{ route('frontend.portfolio') }}">Jame Mosque at Barhmanbaria</a></h4>
+                            <h4 class="qrt-cursor-color qrt-white" style="font-size: 17px;font-weight: normal;"><a href="{{ route('frontend.portfolio') }}">Jame Mosque at Brahmanbaria</a></h4>
                             <a href="{{ route('frontend.portfolio') }}" class="qrt-cursor-scale qrt-work-more"><i class="fas fa-arrow-right"></i></a>
                           </div>
                         </div>
